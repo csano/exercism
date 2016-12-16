@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using NUnit.Framework;
 
@@ -45,21 +43,5 @@ public class RaindropsTest
     public string Numbers_containing_multiple_prime_factors_give_all_results_concatenated(int number)
     {
         return Raindrops.Convert(number);
-    }
-}
-
-public class Raindrops
-{
-    private static readonly int[] Factors = { 3, 5, 7 };
-    private static readonly Dictionary<int, string> FactorMappings = new Dictionary<int, string> { { 3, "Pling" }, { 5, "Plang" }, { 7, "Plong" } };
-
-    public static string Convert(int number)
-    {
-        var output = string.Empty;
-        foreach (var factor in Factors.Where(x => number % x == 0))
-        {
-            output += FactorMappings[factor];
-        }
-        return !string.IsNullOrEmpty(output) ? output : number.ToString();
     }
 }

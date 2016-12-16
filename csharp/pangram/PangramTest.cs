@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using NUnit.Framework.Constraints;
 
 [TestFixture]
@@ -73,18 +72,5 @@ public class PangramTest
     {
         var input = "Широкая электрификация южных губерний даст мощный толчок подъёму сельского хозяйства.";
         Assert.That(Pangram.IsPangram(input), Is.EqualTo(false));
-    }
-}
-
-public class Pangram
-{
-    public static bool IsPangram(string sequence)
-    {
-        var checklist = new bool[26];
-        sequence.ToLower()
-                .Where(x => x >= 'a' && x <= 'z')
-                .ToList()
-                .ForEach(x=>checklist[x - 'a'] = true);
-        return !checklist.Any(x => !x);
     }
 }

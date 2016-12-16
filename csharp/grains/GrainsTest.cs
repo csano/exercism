@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 [TestFixture]
 public class GrainsTest
@@ -50,23 +49,5 @@ public class GrainsTest
     public void Test_total_grains()
     {
         Assert.That(Grains.Total(), Is.EqualTo(18446744073709551615));
-    }
-}
-
-public class Grains
-{
-    public static ulong Total()
-    {
-        ulong sum = 0;
-        for(var i = 1; i <= 64; i++)
-        {
-            sum += Square(i);
-        }
-        return sum;
-    }
-
-    public static ulong Square(int i)
-    {
-        return (ulong) Math.Pow(2, i-1);
     }
 }

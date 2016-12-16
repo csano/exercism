@@ -50,6 +50,8 @@
     <Compile Include="difference-of-squares\Squares.cs" />
     <Compile Include="gigasecond\Gigasecond.cs" />
     <Compile Include="gigasecond\GigasecondTest.cs" />
+    <Compile Include="hamming\Hamming.cs" />
+    <Compile Include="hamming\HammingTest.cs" />
     <Compile Include="hello-world\HelloWorld.cs" />
     <Compile Include="hello-world\HelloWorldTest.cs" />
     <Compile Include="leap\LeapTest.cs" />
@@ -66,6 +68,7 @@
     <None Include="bob\README.md" />
     <None Include="difference-of-squares\README.md" />
     <None Include="gigasecond\README.md" />
+    <None Include="hamming\README.md" />
     <None Include="hello-world\README.md" />
     <None Include="leap\README.md" />
     <None Include="packages.config" />

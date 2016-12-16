@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="accumulate\AccumulateTest.cs" />
     <Compile Include="accumulate\AccumulationExtensions.cs" />
+    <Compile Include="bank-account\BankAccount.cs" />
     <Compile Include="bank-account\BankAccountTest.cs" />
     <Compile Include="bob\Bob.cs" />
     <Compile Include="bob\BobTest.cs" />
@@ -53,6 +54,8 @@
     <Compile Include="difference-of-squares\Squares.cs" />
     <Compile Include="gigasecond\Gigasecond.cs" />
     <Compile Include="gigasecond\GigasecondTest.cs" />
+    <Compile Include="grade-school\GradeSchoolTest.cs" />
+    <Compile Include="grade-school\School.cs" />
     <Compile Include="grains\Grains.cs" />
     <Compile Include="grains\GrainsTest.cs" />
     <Compile Include="hamming\Hamming.cs" />
@@ -82,6 +85,7 @@
     <None Include="bob\README.md" />
     <None Include="difference-of-squares\README.md" />
     <None Include="gigasecond\README.md" />
+    <None Include="grade-school\README.md" />
     <None Include="grains\README.md" />
     <None Include="hamming\README.md" />
     <None Include="hello-world\README.md" />

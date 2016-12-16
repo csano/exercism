@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="accumulate\AccumulateTest.cs" />
+    <Compile Include="accumulate\AccumulationExtensions.cs" />
     <Compile Include="bob\Bob.cs" />
     <Compile Include="bob\BobTest.cs" />
     <Compile Include="difference-of-squares\DifferenceOfSquaresTest.cs" />

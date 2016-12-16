@@ -58,6 +58,9 @@
     <Compile Include="hello-world\HelloWorldTest.cs" />
     <Compile Include="leap\LeapTest.cs" />
     <Compile Include="leap\Year.cs" />
+    <Compile Include="nucleotide-count\Dna.cs" />
+    <Compile Include="nucleotide-count\InvalidNucleotideException.cs" />
+    <Compile Include="nucleotide-count\NucleotideCountTest.cs" />
     <Compile Include="pangram\Pangram.cs" />
     <Compile Include="pangram\PangramTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +81,7 @@
     <None Include="hamming\README.md" />
     <None Include="hello-world\README.md" />
     <None Include="leap\README.md" />
+    <None Include="nucleotide-count\README.md" />
     <None Include="packages.config" />
     <None Include="pangram\README.md" />
     <None Include="raindrops\README.md" />

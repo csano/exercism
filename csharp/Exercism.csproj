@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>bc9a7b0c-e59d-422a-ba3a-628443712f50</ProjectGuid>
+    <ProjectGuid>{BC9A7B0C-E59D-422A-BA3A-628443712F50}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Exercism</RootNamespace>
@@ -30,24 +30,42 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="bob\Bob.cs" />
+    <Compile Include="bob\BobTest.cs" />
+    <Compile Include="difference-of-squares\DifferenceOfSquaresTest.cs" />
+    <Compile Include="difference-of-squares\Squares.cs" />
+    <Compile Include="gigasecond\Gigasecond.cs" />
+    <Compile Include="gigasecond\GigasecondTest.cs" />
+    <Compile Include="hello-world\HelloWorld.cs" />
+    <Compile Include="hello-world\HelloWorldTest.cs" />
+    <Compile Include="leap\LeapTest.cs" />
+    <Compile Include="leap\Year.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rna-transcription\Complement.cs" />
+    <Compile Include="rna-transcription\ComplementTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bob\README.md" />
+    <None Include="difference-of-squares\README.md" />
+    <None Include="gigasecond\README.md" />
+    <None Include="hello-world\README.md" />
+    <None Include="leap\README.md" />
+    <None Include="packages.config" />
+    <None Include="rna-transcription\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -57,5 +75,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
- </Project>
+</Project>

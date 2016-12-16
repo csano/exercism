@@ -83,37 +83,3 @@ public class BankAccountTest
         Assert.That(account.GetBalance(), Is.EqualTo(0));
     }
 }
-
-public class BankAccount
-{
-    private bool _isOpen;
-    private int _balance;
-    private readonly object _locker = new object();
-
-    public void Open()
-    {
-        _isOpen = true;
-    }
-
-    public void UpdateBalance(int amount)
-    {
-        lock(_locker)
-        {
-            _balance += amount;
-        }
-    }
-
-    public int GetBalance()
-    {
-        if (!_isOpen)
-        {
-            throw new InvalidOperationException();
-        }
-        return _balance;
-    }
-
-    public void Close()
-    {
-        _isOpen = false;
-    }
-}

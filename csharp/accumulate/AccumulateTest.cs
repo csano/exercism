@@ -58,3 +58,4 @@ public class AccumulateTest
         Assert.That(counter, Is.EqualTo(3));
     }
 }
+    

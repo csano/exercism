@@ -13,6 +13,8 @@
 		26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C491E04D36200F4DCF0 /* helloWorld.swift */; };
 		26373C4F1E04D49400F4DCF0 /* LeapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C4D1E04D49400F4DCF0 /* LeapTest.swift */; };
 		26373C521E05096A00F4DCF0 /* year.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C511E05096A00F4DCF0 /* year.swift */; };
+		26373C561E050F5400F4DCF0 /* GigasecondTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C541E050F5400F4DCF0 /* GigasecondTest.swift */; };
+		26373C591E05EF8700F4DCF0 /* gigasecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C581E05EF8700F4DCF0 /* gigasecond.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		26373C491E04D36200F4DCF0 /* helloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helloWorld.swift; sourceTree = "<group>"; };
 		26373C4D1E04D49400F4DCF0 /* LeapTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeapTest.swift; sourceTree = "<group>"; };
 		26373C511E05096A00F4DCF0 /* year.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = year.swift; sourceTree = "<group>"; };
+		26373C541E050F5400F4DCF0 /* GigasecondTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GigasecondTest.swift; sourceTree = "<group>"; };
+		26373C581E05EF8700F4DCF0 /* gigasecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gigasecond.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26373C531E050F5400F4DCF0 /* gigasecond */,
 				26373C4C1E04D49400F4DCF0 /* leap */,
 				26373C321E04BC3800F4DCF0 /* hello-world */,
 				26373C291E04BBDC00F4DCF0 /* Products */,
@@ -99,6 +104,15 @@
 				26373C511E05096A00F4DCF0 /* year.swift */,
 			);
 			path = leap;
+			sourceTree = "<group>";
+		};
+		26373C531E050F5400F4DCF0 /* gigasecond */ = {
+			isa = PBXGroup;
+			children = (
+				26373C541E050F5400F4DCF0 /* GigasecondTest.swift */,
+				26373C581E05EF8700F4DCF0 /* gigasecond.swift */,
+			);
+			path = gigasecond;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +217,8 @@
 				26373C461E04BCB900F4DCF0 /* helloWorldTest.swift in Sources */,
 				26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */,
 				26373C521E05096A00F4DCF0 /* year.swift in Sources */,
+				26373C591E05EF8700F4DCF0 /* gigasecond.swift in Sources */,
+				26373C561E050F5400F4DCF0 /* GigasecondTest.swift in Sources */,
 				26373C4F1E04D49400F4DCF0 /* LeapTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

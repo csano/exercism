@@ -306,4 +306,7 @@ Carthage/Build
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
+
+# Annoying files
+.DSStore
 fastlane/test_output

@@ -10,6 +10,9 @@
 		260F5BDB1E064A8D0013503E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BD91E064A8D0013503E /* README.md */; };
 		260F5BDC1E064A8D0013503E /* RnaTranscriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BDA1E064A8D0013503E /* RnaTranscriptionTest.swift */; };
 		260F5BDE1E064AB30013503E /* nucleotide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BDD1E064AB30013503E /* nucleotide.swift */; };
+		260F5BE21E0674C20013503E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BE01E0674C20013503E /* README.md */; };
+		260F5BE31E0674C20013503E /* SumOfMultiplesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BE11E0674C20013503E /* SumOfMultiplesTest.swift */; };
+		260F5BE51E0678170013503E /* sumOfMultiples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BE41E0678170013503E /* sumOfMultiples.swift */; };
 		26373C461E04BCB900F4DCF0 /* helloWorldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C331E04BC3800F4DCF0 /* helloWorldTest.swift */; };
 		26373C471E04BCCC00F4DCF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26373C381E04BC6D00F4DCF0 /* XCTest.framework */; };
 		26373C4A1E04D36200F4DCF0 /* helloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C491E04D36200F4DCF0 /* helloWorld.swift */; };
@@ -39,6 +42,9 @@
 		260F5BD91E064A8D0013503E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		260F5BDA1E064A8D0013503E /* RnaTranscriptionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RnaTranscriptionTest.swift; sourceTree = "<group>"; };
 		260F5BDD1E064AB30013503E /* nucleotide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nucleotide.swift; sourceTree = "<group>"; };
+		260F5BE01E0674C20013503E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		260F5BE11E0674C20013503E /* SumOfMultiplesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumOfMultiplesTest.swift; sourceTree = "<group>"; };
+		260F5BE41E0678170013503E /* sumOfMultiples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sumOfMultiples.swift; sourceTree = "<group>"; };
 		26373C281E04BBDC00F4DCF0 /* exercism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercism; sourceTree = BUILT_PRODUCTS_DIR; };
 		26373C331E04BC3800F4DCF0 /* helloWorldTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helloWorldTest.swift; sourceTree = "<group>"; };
 		26373C381E04BC6D00F4DCF0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -82,9 +88,20 @@
 			path = "rna-transcription";
 			sourceTree = "<group>";
 		};
+		260F5BDF1E0674C20013503E /* sum-of-multiples */ = {
+			isa = PBXGroup;
+			children = (
+				260F5BE01E0674C20013503E /* README.md */,
+				260F5BE11E0674C20013503E /* SumOfMultiplesTest.swift */,
+				260F5BE41E0678170013503E /* sumOfMultiples.swift */,
+			);
+			path = "sum-of-multiples";
+			sourceTree = "<group>";
+		};
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				260F5BDF1E0674C20013503E /* sum-of-multiples */,
 				260F5BD81E064A8D0013503E /* rna-transcription */,
 				26373C5A1E05F01200F4DCF0 /* difference-of-squares */,
 				26373C531E050F5400F4DCF0 /* gigasecond */,
@@ -252,7 +269,10 @@
 				26373C461E04BCB900F4DCF0 /* helloWorldTest.swift in Sources */,
 				26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */,
 				260F5BDB1E064A8D0013503E /* README.md in Sources */,
+				260F5BE21E0674C20013503E /* README.md in Sources */,
 				26373C521E05096A00F4DCF0 /* year.swift in Sources */,
+				260F5BE31E0674C20013503E /* SumOfMultiplesTest.swift in Sources */,
+				260F5BE51E0678170013503E /* sumOfMultiples.swift in Sources */,
 				26373C591E05EF8700F4DCF0 /* gigasecond.swift in Sources */,
 				26373C601E05F2B600F4DCF0 /* squares.swift in Sources */,
 				26373C561E050F5400F4DCF0 /* GigasecondTest.swift in Sources */,

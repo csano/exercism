@@ -8,20 +8,13 @@ class Squares {
     }
     var squareOfSums : Int {
         get {
-            var sum = 0;
-            for index in 1...max {
-                sum += index
-            }
-            return Int(pow(Double(sum), Double(2)))
+            let num = (1...max).reduce(0, +)
+            return num * num
         }
     }
     var sumOfSquares : Int {
         get {
-            var sum = 0;
-            for index in 1...max {
-                sum += Int(pow(Double(index), Double(2)))
-            }
-            return sum
+            return (1...max).map({ $0 * $0 }).reduce(0, +);
         }
     }
     var differenceOfSquares : Int {

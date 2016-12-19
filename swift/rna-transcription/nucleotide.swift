@@ -6,6 +6,6 @@ class Nucleotide {
         return String(strand.characters.map({ mapping[$0]! }))
     }
     init(_ strand : String) {
-        self.strand = strand;
+        self.strand = strand
     }
 }

@@ -10,7 +10,7 @@ class Gigasecond {
         if let date = dateFormatter.date(from: from) {
             description = dateFormatter.string(from: date.addingTimeInterval(pow(10, 9)))
         } else {
-            return nil;
+            return nil
         }
     }
     

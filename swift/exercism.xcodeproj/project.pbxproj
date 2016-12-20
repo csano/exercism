@@ -16,6 +16,9 @@
 		260F5BE91E0738080013503E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BE71E0738080013503E /* README.md */; };
 		260F5BEA1E0738090013503E /* SpaceAgeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BE81E0738080013503E /* SpaceAgeTest.swift */; };
 		260F5BEC1E073F500013503E /* SpaceAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BEB1E073F500013503E /* SpaceAge.swift */; };
+		260F5BF01E08FAE00013503E /* BobTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BEE1E08FAE00013503E /* BobTest.swift */; };
+		260F5BF11E08FAE00013503E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BEF1E08FAE00013503E /* README.md */; };
+		260F5BF31E090B0D0013503E /* Bob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260F5BF21E090B0D0013503E /* Bob.swift */; };
 		26373C461E04BCB900F4DCF0 /* helloWorldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C331E04BC3800F4DCF0 /* helloWorldTest.swift */; };
 		26373C471E04BCCC00F4DCF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26373C381E04BC6D00F4DCF0 /* XCTest.framework */; };
 		26373C4A1E04D36200F4DCF0 /* helloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C491E04D36200F4DCF0 /* helloWorld.swift */; };
@@ -51,6 +54,9 @@
 		260F5BE71E0738080013503E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		260F5BE81E0738080013503E /* SpaceAgeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAgeTest.swift; sourceTree = "<group>"; };
 		260F5BEB1E073F500013503E /* SpaceAge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceAge.swift; sourceTree = "<group>"; };
+		260F5BEE1E08FAE00013503E /* BobTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BobTest.swift; sourceTree = "<group>"; };
+		260F5BEF1E08FAE00013503E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		260F5BF21E090B0D0013503E /* Bob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bob.swift; sourceTree = "<group>"; };
 		26373C281E04BBDC00F4DCF0 /* exercism */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercism; sourceTree = BUILT_PRODUCTS_DIR; };
 		26373C331E04BC3800F4DCF0 /* helloWorldTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helloWorldTest.swift; sourceTree = "<group>"; };
 		26373C381E04BC6D00F4DCF0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -114,9 +120,20 @@
 			path = "space-age";
 			sourceTree = "<group>";
 		};
+		260F5BED1E08FAE00013503E /* bob */ = {
+			isa = PBXGroup;
+			children = (
+				260F5BEE1E08FAE00013503E /* BobTest.swift */,
+				260F5BEF1E08FAE00013503E /* README.md */,
+				260F5BF21E090B0D0013503E /* Bob.swift */,
+			);
+			path = bob;
+			sourceTree = "<group>";
+		};
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				260F5BED1E08FAE00013503E /* bob */,
 				260F5BE61E0738080013503E /* space-age */,
 				260F5BDF1E0674C20013503E /* sum-of-multiples */,
 				260F5BD81E064A8D0013503E /* rna-transcription */,
@@ -284,9 +301,12 @@
 			files = (
 				260F5BDC1E064A8D0013503E /* RnaTranscriptionTest.swift in Sources */,
 				26373C461E04BCB900F4DCF0 /* helloWorldTest.swift in Sources */,
+				260F5BF11E08FAE00013503E /* README.md in Sources */,
+				260F5BF31E090B0D0013503E /* Bob.swift in Sources */,
 				26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */,
 				260F5BDB1E064A8D0013503E /* README.md in Sources */,
 				260F5BEC1E073F500013503E /* SpaceAge.swift in Sources */,
+				260F5BF01E08FAE00013503E /* BobTest.swift in Sources */,
 				260F5BE21E0674C20013503E /* README.md in Sources */,
 				26373C521E05096A00F4DCF0 /* year.swift in Sources */,
 				260F5BE91E0738080013503E /* README.md in Sources */,

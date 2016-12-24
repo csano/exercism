@@ -1,13 +1,15 @@
 defmodule Words do
-  defp string_to_word_list(str) do
-    String.downcase(str) |> String.split(~r/(_|[^\w\p{Pd}])+/u, trim: true)
-  end
+  @to_split_on ~r/[^\p{L}0-9\-]+/u
 
-  defp update_map(word, map) do
-    Map.update(map, word, 1, &(&1 + 1))
+  defp string_to_word_list(str) do
+    String.downcase(str) 
+    |> String.split(@to_split_on, trim: true)
   end
 
   def count(sentence) do
-    string_to_word_list(sentence) |> Enum.reduce(%{}, &update_map/2)
+    string_to_word_list(sentence) 
+    |> Enum.reduce(%{}, fn(word, map) ->
+        Map.update(map, word, 1, &(&1 + 1))
+      end)
   end
 end

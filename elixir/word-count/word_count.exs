@@ -4,7 +4,7 @@ defmodule Words do
   end
 
   defp add_to_dict(x, acc) do
-    Dict.update(acc, x, 1, &(&1 + 1))
+    Map.update(acc, x, 1, &(&1 + 1))
   end
 
   def count(sentence) do

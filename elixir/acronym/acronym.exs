@@ -7,7 +7,7 @@ defmodule Acronym do
     string
     |> insert_space_before_capital_letter()
     |> String.split()
-    |> Enum.map(fn(string) -> String.slice(string, 0, 1) end) 
+    |> Enum.map(&String.first/1) 
     |> Enum.join
     |> String.upcase()
   end

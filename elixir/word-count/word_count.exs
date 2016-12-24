@@ -3,11 +3,11 @@ defmodule Words do
     str |> String.downcase |> String.split(~r/(_|[^\w\p{Pd}])+/u, trim: true)
   end
 
-  defp add_to_dict(x, acc) do
-    Map.update(acc, x, 1, &(&1 + 1))
+  defp update_map(word, map) do
+    Map.update(map, word, 1, &(&1 + 1))
   end
 
   def count(sentence) do
-    string_to_word_list(sentence) |> Enum.reduce(%{}, &add_to_dict/2)
+    string_to_word_list(sentence) |> Enum.reduce(%{}, &update_map/2)
   end
 end

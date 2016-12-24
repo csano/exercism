@@ -11,5 +11,3 @@ defmodule Words do
     string_to_word_list(sentence) |> Enum.reduce(%{}, &add_to_dict/2)
   end
 end
-
-IO.inspect Words.count("test test foo bar")

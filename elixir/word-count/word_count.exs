@@ -1,6 +1,6 @@
 defmodule Words do
   defp string_to_word_list(str) do
-    str |> String.downcase |> String.split(~r/(_|[^\w\p{Pd}])+/u, trim: true)
+    String.downcase(str) |> String.split(~r/(_|[^\w\p{Pd}])+/u, trim: true)
   end
 
   defp update_map(word, map) do

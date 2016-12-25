@@ -1,18 +1,18 @@
 defmodule Raindrops do
   @sound_mapping %{ 3 => "Pling", 5 => "Plang", 7 => "Plong" }
-  def convert(number) do
+  @empty_string ""
+  def convert(input) do
     sounds = 
       @sound_mapping
-      |> Enum.filter(fn({k,_}) -> rem(number, k) == 0 end)
-      |> Enum.reduce([], fn({_,v}, acc) -> [acc,v] end)
-      |> List.flatten
+      |> Enum.reduce(@empty_string, fn
+        ({number, value}, output) when rem(input, number) == 0 -> output <> value 
+        (_, output) -> output
+      end)
     
-    if sounds == [] do
-      to_string(number)
+    if sounds == @empty_string do
+      to_string(input)
     else
-      sounds |> Enum.join
+      sounds
     end
   end
 end
-
-IO.inspect Raindrops.convert(15)

@@ -17,10 +17,7 @@ defmodule RunLengthEncoder do
   @spec decode(String.t) :: String.t
   def decode(string) do
     Regex.scan(~r/(\d+)(\p{Lu})/u, string)
-    |> Enum.reduce("", fn(group, acc) -> 
-      case group do
-        [_, instances, letter] -> acc <> String.duplicate(letter, String.to_integer(instances))
-      end
-    end)
+    |> Enum.map(fn ([_, instances, letter]) -> String.duplicate(letter, String.to_integer(instances)) end)
+    |> Enum.join
   end
 end

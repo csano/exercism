@@ -32,8 +32,8 @@ defmodule Scrabble do
     word
     |> String.trim
     |> String.graphemes
-    |> Enum.reduce(0, fn(letter, acc) ->
-      acc + Map.fetch!(@values, String.upcase(letter))
+    |> Enum.reduce(0, fn(letter, score) ->
+      score + Map.fetch!(@values, String.upcase(letter))
     end)
   end
 end

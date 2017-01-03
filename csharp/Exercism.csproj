@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
+      <HintPath>packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -76,6 +76,11 @@
     <Compile Include="rna-transcription\ComplementTest.cs" />
     <Compile Include="space-age\SpaceAge.cs" />
     <Compile Include="space-age\SpaceAgeTest.cs" />
+    <Compile Include="strain\ArrayExtensions.cs" />
+    <Compile Include="strain\HashSetExtensions.cs" />
+    <Compile Include="strain\LinkedListExtensions.cs" />
+    <Compile Include="strain\ListExtensions.cs" />
+    <Compile Include="strain\StrainTest.cs" />
     <Compile Include="sum-of-multiples\SumOfMultiples.cs" />
     <Compile Include="sum-of-multiples\SumOfMultiplesTest.cs" />
   </ItemGroup>
@@ -96,6 +101,7 @@
     <None Include="raindrops\README.md" />
     <None Include="rna-transcription\README.md" />
     <None Include="space-age\README.md" />
+    <None Include="strain\README.md" />
     <None Include="sum-of-multiples\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

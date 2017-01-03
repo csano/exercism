@@ -1,15 +1,27 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 public static class ListExtensions
 {
-    public static List<T> Keep<T>(this List<T> list, Func<T, bool> expression)
+    public static IEnumerable<T> Keep<T>(this IEnumerable<T> list, Func<T, bool> expression)
     {
-        return list.Where(expression).ToList();
+        foreach (var item in list)
+        {
+            if (expression(item))
+            {
+                yield return item;
+            }
+        }
     }
-    public static List<T> Discard<T>(this List<T> list, Func<T, bool> expression)
+
+    public static IEnumerable<T> Discard<T>(this IEnumerable<T> list, Func<T, bool> expression)
     {
-        return list.Where(x => !expression(x)).ToList();
+        foreach (var item in list)
+        {
+            if (!expression(item))
+            {
+                yield return item;
+            }
+        }
     }
 }

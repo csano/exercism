@@ -76,6 +76,8 @@
     <Compile Include="raindrops\RaindropsTest.cs" />
     <Compile Include="rna-transcription\Complement.cs" />
     <Compile Include="rna-transcription\ComplementTest.cs" />
+    <Compile Include="robot-name\Robot.cs" />
+    <Compile Include="robot-name\RobotNameTest.cs" />
     <Compile Include="scrabble-score\Scrabble.cs" />
     <Compile Include="scrabble-score\ScrabbleScoreTest.cs" />
     <Compile Include="space-age\SpaceAge.cs" />
@@ -102,6 +104,7 @@
     <None Include="proverb\README.md" />
     <None Include="raindrops\README.md" />
     <None Include="rna-transcription\README.md" />
+    <None Include="robot-name\README.md" />
     <None Include="scrabble-score\README.md" />
     <None Include="space-age\README.md" />
     <None Include="strain\README.md" />

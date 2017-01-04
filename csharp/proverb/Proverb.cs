@@ -14,6 +14,8 @@ public class Proverb
        "kingdom"
     };
 
+    private const int ProverbLineCount = 7;
+
     private static string BuildForWantLine(int line)
     {
         return $"For want of a {Items[line - 1]} the {Items[line]} was lost.";
@@ -27,7 +29,7 @@ public class Proverb
     public static string AllLines()
     {
         var output = new StringBuilder();
-        for(var lineNumber = 1; lineNumber < 7; lineNumber++)
+        for(var lineNumber = 1; lineNumber < ProverbLineCount; lineNumber++)
         {
             output.Append(BuildForWantLine(lineNumber) + "\n");
         }
@@ -37,6 +39,6 @@ public class Proverb
 
     public static string Line(int lineNumber)
     {
-        return lineNumber != 7 ? BuildForWantLine(lineNumber) : GetLastLine();
+        return lineNumber != ProverbLineCount ? BuildForWantLine(lineNumber) : GetLastLine();
     }
 }

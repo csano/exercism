@@ -74,6 +74,7 @@
     <Compile Include="raindrops\RaindropsTest.cs" />
     <Compile Include="rna-transcription\Complement.cs" />
     <Compile Include="rna-transcription\ComplementTest.cs" />
+    <Compile Include="scrabble-score\ScrabbleScoreTest.cs" />
     <Compile Include="space-age\SpaceAge.cs" />
     <Compile Include="space-age\SpaceAgeTest.cs" />
     <Compile Include="strain\ListExtensions.cs" />
@@ -97,6 +98,7 @@
     <None Include="pangram\README.md" />
     <None Include="raindrops\README.md" />
     <None Include="rna-transcription\README.md" />
+    <None Include="scrabble-score\README.md" />
     <None Include="space-age\README.md" />
     <None Include="strain\README.md" />
     <None Include="sum-of-multiples\README.md" />

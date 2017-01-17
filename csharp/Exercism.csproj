@@ -52,6 +52,7 @@
     <Compile Include="bob\BobTest.cs" />
     <Compile Include="difference-of-squares\DifferenceOfSquaresTest.cs" />
     <Compile Include="difference-of-squares\Squares.cs" />
+    <Compile Include="error-handling\ErrorHandlingTest.cs" />
     <Compile Include="gigasecond\Gigasecond.cs" />
     <Compile Include="gigasecond\GigasecondTest.cs" />
     <Compile Include="grade-school\GradeSchoolTest.cs" />
@@ -92,6 +93,7 @@
     <None Include="bank-account\README.md" />
     <None Include="bob\README.md" />
     <None Include="difference-of-squares\README.md" />
+    <None Include="error-handling\README.md" />
     <None Include="gigasecond\README.md" />
     <None Include="grade-school\README.md" />
     <None Include="grains\README.md" />

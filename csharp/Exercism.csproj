@@ -52,6 +52,7 @@
     <Compile Include="bob\BobTest.cs" />
     <Compile Include="difference-of-squares\DifferenceOfSquaresTest.cs" />
     <Compile Include="difference-of-squares\Squares.cs" />
+    <Compile Include="error-handling\ErrorHandling.cs" />
     <Compile Include="error-handling\ErrorHandlingTest.cs" />
     <Compile Include="gigasecond\Gigasecond.cs" />
     <Compile Include="gigasecond\GigasecondTest.cs" />
@@ -63,6 +64,9 @@
     <Compile Include="hamming\HammingTest.cs" />
     <Compile Include="hello-world\HelloWorld.cs" />
     <Compile Include="hello-world\HelloWorldTest.cs" />
+    <Compile Include="kindergarten-garden\Garden.cs" />
+    <Compile Include="kindergarten-garden\KinderGartenGardenTest.cs" />
+    <Compile Include="kindergarten-garden\Plant.cs" />
     <Compile Include="leap\LeapTest.cs" />
     <Compile Include="leap\Year.cs" />
     <Compile Include="nucleotide-count\Dna.cs" />
@@ -99,6 +103,7 @@
     <None Include="grains\README.md" />
     <None Include="hamming\README.md" />
     <None Include="hello-world\README.md" />
+    <None Include="kindergarten-garden\README.md" />
     <None Include="leap\README.md" />
     <None Include="nucleotide-count\README.md" />
     <None Include="packages.config" />

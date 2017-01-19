@@ -75,6 +75,18 @@
     <Compile Include="pangram\Pangram.cs" />
     <Compile Include="pangram\PangramTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="protein-translation\AminoAcid.cs" />
+    <Compile Include="protein-translation\AminoAcidFactory.cs" />
+    <Compile Include="protein-translation\Cysteine.cs" />
+    <Compile Include="protein-translation\Leucine.cs" />
+    <Compile Include="protein-translation\Methionine.cs" />
+    <Compile Include="protein-translation\Phenylalanine.cs" />
+    <Compile Include="protein-translation\ProteinTranslation.cs" />
+    <Compile Include="protein-translation\ProteinTranslationTest.cs" />
+    <Compile Include="protein-translation\Serine.cs" />
+    <Compile Include="protein-translation\Stop.cs" />
+    <Compile Include="protein-translation\Tryptophan.cs" />
+    <Compile Include="protein-translation\Tyrosine.cs" />
     <Compile Include="proverb\Proverb.cs" />
     <Compile Include="proverb\ProverbTest.cs" />
     <Compile Include="raindrops\Raindrops.cs" />
@@ -108,6 +120,7 @@
     <None Include="nucleotide-count\README.md" />
     <None Include="packages.config" />
     <None Include="pangram\README.md" />
+    <None Include="protein-translation\README.md" />
     <None Include="proverb\README.md" />
     <None Include="raindrops\README.md" />
     <None Include="rna-transcription\README.md" />

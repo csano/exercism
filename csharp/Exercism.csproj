@@ -74,6 +74,9 @@
     <Compile Include="nucleotide-count\NucleotideCountTest.cs" />
     <Compile Include="pangram\Pangram.cs" />
     <Compile Include="pangram\PangramTest.cs" />
+    <Compile Include="perfect-numbers\NumberType.cs" />
+    <Compile Include="perfect-numbers\PerfectNumbers.cs" />
+    <Compile Include="perfect-numbers\PerfectNumbersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="protein-translation\AminoAcid.cs" />
     <Compile Include="protein-translation\AminoAcidFactory.cs" />
@@ -120,6 +123,7 @@
     <None Include="nucleotide-count\README.md" />
     <None Include="packages.config" />
     <None Include="pangram\README.md" />
+    <None Include="perfect-numbers\README.md" />
     <None Include="protein-translation\README.md" />
     <None Include="proverb\README.md" />
     <None Include="raindrops\README.md" />

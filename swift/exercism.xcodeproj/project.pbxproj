@@ -33,6 +33,10 @@
 		26373C5D1E05F01200F4DCF0 /* DifferenceOfSquaresTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C5B1E05F01200F4DCF0 /* DifferenceOfSquaresTest.swift */; };
 		26373C5E1E05F01200F4DCF0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26373C5C1E05F01200F4DCF0 /* README.md */; };
 		26373C601E05F2B600F4DCF0 /* squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C5F1E05F2B600F4DCF0 /* squares.swift */; };
+		26B3DF091E332EF0003BA6D5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF071E332EF0003BA6D5 /* README.md */; };
+		26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
+		26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF061E332EF0003BA6D5 /* HammingTest.swift */; };
+		26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +79,9 @@
 		26373C5B1E05F01200F4DCF0 /* DifferenceOfSquaresTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferenceOfSquaresTest.swift; sourceTree = "<group>"; };
 		26373C5C1E05F01200F4DCF0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26373C5F1E05F2B600F4DCF0 /* squares.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = squares.swift; sourceTree = "<group>"; };
+		26B3DF061E332EF0003BA6D5 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
+		26B3DF071E332EF0003BA6D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +156,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26B3DF051E332EF0003BA6D5 /* hamming */,
 				260F5BF41E090CCB0013503E /* grains */,
 				260F5BED1E08FAE00013503E /* bob */,
 				260F5BE61E0738080013503E /* space-age */,
@@ -215,6 +223,16 @@
 				26373C5F1E05F2B600F4DCF0 /* squares.swift */,
 			);
 			path = "difference-of-squares";
+			sourceTree = "<group>";
+		};
+		26B3DF051E332EF0003BA6D5 /* hamming */ = {
+			isa = PBXGroup;
+			children = (
+				26B3DF061E332EF0003BA6D5 /* HammingTest.swift */,
+				26B3DF071E332EF0003BA6D5 /* README.md */,
+				26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */,
+			);
+			path = hamming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B3DF091E332EF0003BA6D5 /* README.md in Sources */,
 				26373C4A1E04D36200F4DCF0 /* helloWorld.swift in Sources */,
+				26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,12 +345,14 @@
 				260F5BDB1E064A8D0013503E /* README.md in Sources */,
 				260F5BEC1E073F500013503E /* SpaceAge.swift in Sources */,
 				260F5BF01E08FAE00013503E /* BobTest.swift in Sources */,
+				26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */,
 				260F5BF81E090CCC0013503E /* README.md in Sources */,
 				260F5BE21E0674C20013503E /* README.md in Sources */,
 				26373C521E05096A00F4DCF0 /* year.swift in Sources */,
 				260F5BE91E0738080013503E /* README.md in Sources */,
 				260F5BF71E090CCC0013503E /* GrainsTest.swift in Sources */,
 				260F5BE31E0674C20013503E /* SumOfMultiplesTest.swift in Sources */,
+				26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */,
 				260F5BE51E0678170013503E /* sumOfMultiples.swift in Sources */,
 				26373C591E05EF8700F4DCF0 /* gigasecond.swift in Sources */,
 				26373C601E05F2B600F4DCF0 /* squares.swift in Sources */,

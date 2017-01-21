@@ -1,10 +1,10 @@
 import Foundation
 
 class Hamming {
-    class func compute(_ strand : String, against: String) -> Int?  {
-        if (strand.characters.count != against.characters.count) {
+    class func compute(_ strand : String, against strand2: String) -> Int?  {
+        guard (strand.characters.count == strand2.characters.count) else {
             return nil;
         }
-        return zip(strand.characters, against.characters).filter({$0 != $1}).count
+        return zip(strand.characters, strand2.characters).filter(!=).count
     }
 }

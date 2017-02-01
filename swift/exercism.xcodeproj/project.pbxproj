@@ -41,6 +41,10 @@
 		26B3DF281E34915F003BA6D5 /* Dna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF271E34915F003BA6D5 /* Dna.swift */; };
 		26B3DF291E34915F003BA6D5 /* Dna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF271E34915F003BA6D5 /* Dna.swift */; };
 		26B3DF2A1E349225003BA6D5 /* NucleotideCountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF231E34913A003BA6D5 /* NucleotideCountTest.swift */; };
+		26D0D8B51E41BA57004C5D3C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 26D0D8B11E41BA57004C5D3C /* .gitignore */; };
+		26D0D8B61E41BA57004C5D3C /* Accumulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8B21E41BA57004C5D3C /* Accumulate.swift */; };
+		26D0D8B71E41BA57004C5D3C /* AccumulateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8B31E41BA57004C5D3C /* AccumulateTests.swift */; };
+		26D0D8B81E41BA57004C5D3C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8B41E41BA57004C5D3C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +93,10 @@
 		26B3DF231E34913A003BA6D5 /* NucleotideCountTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NucleotideCountTest.swift; sourceTree = "<group>"; };
 		26B3DF241E34913A003BA6D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26B3DF271E34915F003BA6D5 /* Dna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dna.swift; sourceTree = "<group>"; };
+		26D0D8B11E41BA57004C5D3C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		26D0D8B21E41BA57004C5D3C /* Accumulate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accumulate.swift; sourceTree = "<group>"; };
+		26D0D8B31E41BA57004C5D3C /* AccumulateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccumulateTests.swift; sourceTree = "<group>"; };
+		26D0D8B41E41BA57004C5D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +171,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26D0D8B01E41BA57004C5D3C /* accumulate */,
 				26B3DF221E34913A003BA6D5 /* nucleotide-count */,
 				26B3DF051E332EF0003BA6D5 /* hamming */,
 				260F5BF41E090CCB0013503E /* grains */,
@@ -253,6 +262,17 @@
 			path = "nucleotide-count";
 			sourceTree = "<group>";
 		};
+		26D0D8B01E41BA57004C5D3C /* accumulate */ = {
+			isa = PBXGroup;
+			children = (
+				26D0D8B11E41BA57004C5D3C /* .gitignore */,
+				26D0D8B21E41BA57004C5D3C /* Accumulate.swift */,
+				26D0D8B31E41BA57004C5D3C /* AccumulateTests.swift */,
+				26D0D8B41E41BA57004C5D3C /* README.md */,
+			);
+			path = accumulate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -334,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D0D8B51E41BA57004C5D3C /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +381,7 @@
 				26373C461E04BCB900F4DCF0 /* helloWorldTest.swift in Sources */,
 				260F5BF11E08FAE00013503E /* README.md in Sources */,
 				260F5BFA1E0913C40013503E /* grains.swift in Sources */,
+				26D0D8B81E41BA57004C5D3C /* README.md in Sources */,
 				260F5BF31E090B0D0013503E /* Bob.swift in Sources */,
 				26B3DF291E34915F003BA6D5 /* Dna.swift in Sources */,
 				26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */,
@@ -378,8 +400,10 @@
 				26373C591E05EF8700F4DCF0 /* gigasecond.swift in Sources */,
 				26373C601E05F2B600F4DCF0 /* squares.swift in Sources */,
 				26373C561E050F5400F4DCF0 /* GigasecondTest.swift in Sources */,
+				26D0D8B61E41BA57004C5D3C /* Accumulate.swift in Sources */,
 				26373C5D1E05F01200F4DCF0 /* DifferenceOfSquaresTest.swift in Sources */,
 				260F5BEA1E0738090013503E /* SpaceAgeTest.swift in Sources */,
+				26D0D8B71E41BA57004C5D3C /* AccumulateTests.swift in Sources */,
 				26373C5E1E05F01200F4DCF0 /* README.md in Sources */,
 				26B3DF2A1E349225003BA6D5 /* NucleotideCountTest.swift in Sources */,
 				26373C4F1E04D49400F4DCF0 /* LeapTest.swift in Sources */,

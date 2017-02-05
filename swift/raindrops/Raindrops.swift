@@ -1,15 +1,14 @@
 
 class Raindrops {
-    var raindrops : Int = 0
-    var sound_dict : [Int: String] = [3: "Pling", 5: "Plang", 7: "Plong"]    
+    let sound_dict : [Int: String] = [3: "Pling", 5: "Plang", 7: "Plong"]
+
+    var sounds : String
+
     init(_ raindrops : Int) {
-        self.raindrops = raindrops
-    }
-    var sounds : String {
         var output = "";
-        for key in sound_dict.keys.filter({ x in self.raindrops % x == 0 }).sorted() {
+        for key in sound_dict.keys.filter({ x in raindrops % x == 0 }).sorted() {
             output += sound_dict[key]!
         }
-        return output != "" ? output : String(raindrops)
+        self.sounds = output != "" ? output : String(raindrops)
     }
 }

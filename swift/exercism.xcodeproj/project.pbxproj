@@ -45,6 +45,9 @@
 		26D0D8B61E41BA57004C5D3C /* Accumulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8B21E41BA57004C5D3C /* Accumulate.swift */; };
 		26D0D8B71E41BA57004C5D3C /* AccumulateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8B31E41BA57004C5D3C /* AccumulateTests.swift */; };
 		26D0D8B81E41BA57004C5D3C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8B41E41BA57004C5D3C /* README.md */; };
+		26D0D8BD1E47A8BD004C5D3C /* Raindrops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8BA1E47A8BD004C5D3C /* Raindrops.swift */; };
+		26D0D8BE1E47A8BD004C5D3C /* RaindropsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8BB1E47A8BD004C5D3C /* RaindropsTests.swift */; };
+		26D0D8BF1E47A8BD004C5D3C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8BC1E47A8BD004C5D3C /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +100,9 @@
 		26D0D8B21E41BA57004C5D3C /* Accumulate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accumulate.swift; sourceTree = "<group>"; };
 		26D0D8B31E41BA57004C5D3C /* AccumulateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccumulateTests.swift; sourceTree = "<group>"; };
 		26D0D8B41E41BA57004C5D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26D0D8BA1E47A8BD004C5D3C /* Raindrops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Raindrops.swift; sourceTree = "<group>"; };
+		26D0D8BB1E47A8BD004C5D3C /* RaindropsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaindropsTests.swift; sourceTree = "<group>"; };
+		26D0D8BC1E47A8BD004C5D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +180,7 @@
 				26D0D8B01E41BA57004C5D3C /* accumulate */,
 				26B3DF221E34913A003BA6D5 /* nucleotide-count */,
 				26B3DF051E332EF0003BA6D5 /* hamming */,
+				26D0D8B91E47A8BD004C5D3C /* raindrops */,
 				260F5BF41E090CCB0013503E /* grains */,
 				260F5BED1E08FAE00013503E /* bob */,
 				260F5BE61E0738080013503E /* space-age */,
@@ -272,6 +279,16 @@
 			);
 			path = accumulate;
 			sourceTree = "<group>";
+		};
+		26D0D8B91E47A8BD004C5D3C /* raindrops */ = {
+			isa = PBXGroup;
+			children = (
+				26D0D8BA1E47A8BD004C5D3C /* Raindrops.swift */,
+				26D0D8BB1E47A8BD004C5D3C /* RaindropsTests.swift */,
+				26D0D8BC1E47A8BD004C5D3C /* README.md */,
+			);
+			path = raindrops;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -383,6 +400,7 @@
 				260F5BFA1E0913C40013503E /* grains.swift in Sources */,
 				26D0D8B81E41BA57004C5D3C /* README.md in Sources */,
 				260F5BF31E090B0D0013503E /* Bob.swift in Sources */,
+				26D0D8BE1E47A8BD004C5D3C /* RaindropsTests.swift in Sources */,
 				26B3DF291E34915F003BA6D5 /* Dna.swift in Sources */,
 				26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */,
 				260F5BDB1E064A8D0013503E /* README.md in Sources */,
@@ -404,7 +422,9 @@
 				26373C5D1E05F01200F4DCF0 /* DifferenceOfSquaresTest.swift in Sources */,
 				260F5BEA1E0738090013503E /* SpaceAgeTest.swift in Sources */,
 				26D0D8B71E41BA57004C5D3C /* AccumulateTests.swift in Sources */,
+				26D0D8BF1E47A8BD004C5D3C /* README.md in Sources */,
 				26373C5E1E05F01200F4DCF0 /* README.md in Sources */,
+				26D0D8BD1E47A8BD004C5D3C /* Raindrops.swift in Sources */,
 				26B3DF2A1E349225003BA6D5 /* NucleotideCountTest.swift in Sources */,
 				26373C4F1E04D49400F4DCF0 /* LeapTest.swift in Sources */,
 				260F5BDE1E064AB30013503E /* nucleotide.swift in Sources */,

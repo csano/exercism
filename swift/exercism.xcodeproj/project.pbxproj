@@ -48,6 +48,9 @@
 		26D0D8BD1E47A8BD004C5D3C /* Raindrops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8BA1E47A8BD004C5D3C /* Raindrops.swift */; };
 		26D0D8BE1E47A8BD004C5D3C /* RaindropsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8BB1E47A8BD004C5D3C /* RaindropsTests.swift */; };
 		26D0D8BF1E47A8BD004C5D3C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8BC1E47A8BD004C5D3C /* README.md */; };
+		26D0D8C31E483E17004C5D3C /* GradeSchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C11E483E17004C5D3C /* GradeSchoolTests.swift */; };
+		26D0D8C41E483E17004C5D3C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C21E483E17004C5D3C /* README.md */; };
+		26D0D8C61E485316004C5D3C /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C51E485316004C5D3C /* GradeSchool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +106,9 @@
 		26D0D8BA1E47A8BD004C5D3C /* Raindrops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Raindrops.swift; sourceTree = "<group>"; };
 		26D0D8BB1E47A8BD004C5D3C /* RaindropsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaindropsTests.swift; sourceTree = "<group>"; };
 		26D0D8BC1E47A8BD004C5D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26D0D8C11E483E17004C5D3C /* GradeSchoolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchoolTests.swift; sourceTree = "<group>"; };
+		26D0D8C21E483E17004C5D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26D0D8C51E485316004C5D3C /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +185,7 @@
 			children = (
 				26D0D8B01E41BA57004C5D3C /* accumulate */,
 				26B3DF221E34913A003BA6D5 /* nucleotide-count */,
+				26D0D8C01E483E17004C5D3C /* grade-school */,
 				26B3DF051E332EF0003BA6D5 /* hamming */,
 				26D0D8B91E47A8BD004C5D3C /* raindrops */,
 				260F5BF41E090CCB0013503E /* grains */,
@@ -290,6 +297,16 @@
 			path = raindrops;
 			sourceTree = SOURCE_ROOT;
 		};
+		26D0D8C01E483E17004C5D3C /* grade-school */ = {
+			isa = PBXGroup;
+			children = (
+				26D0D8C11E483E17004C5D3C /* GradeSchoolTests.swift */,
+				26D0D8C21E483E17004C5D3C /* README.md */,
+				26D0D8C51E485316004C5D3C /* GradeSchool.swift */,
+			);
+			path = "grade-school";
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -399,7 +416,9 @@
 				260F5BF11E08FAE00013503E /* README.md in Sources */,
 				260F5BFA1E0913C40013503E /* grains.swift in Sources */,
 				26D0D8B81E41BA57004C5D3C /* README.md in Sources */,
+				26D0D8C61E485316004C5D3C /* GradeSchool.swift in Sources */,
 				260F5BF31E090B0D0013503E /* Bob.swift in Sources */,
+				26D0D8C41E483E17004C5D3C /* README.md in Sources */,
 				26D0D8BE1E47A8BD004C5D3C /* RaindropsTests.swift in Sources */,
 				26B3DF291E34915F003BA6D5 /* Dna.swift in Sources */,
 				26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */,
@@ -414,6 +433,7 @@
 				260F5BF71E090CCC0013503E /* GrainsTest.swift in Sources */,
 				260F5BE31E0674C20013503E /* SumOfMultiplesTest.swift in Sources */,
 				26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */,
+				26D0D8C31E483E17004C5D3C /* GradeSchoolTests.swift in Sources */,
 				260F5BE51E0678170013503E /* sumOfMultiples.swift in Sources */,
 				26373C591E05EF8700F4DCF0 /* gigasecond.swift in Sources */,
 				26373C601E05F2B600F4DCF0 /* squares.swift in Sources */,

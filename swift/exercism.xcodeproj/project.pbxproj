@@ -33,11 +33,9 @@
 		26373C5D1E05F01200F4DCF0 /* DifferenceOfSquaresTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C5B1E05F01200F4DCF0 /* DifferenceOfSquaresTest.swift */; };
 		26373C5E1E05F01200F4DCF0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26373C5C1E05F01200F4DCF0 /* README.md */; };
 		26373C601E05F2B600F4DCF0 /* squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26373C5F1E05F2B600F4DCF0 /* squares.swift */; };
-		26B3DF091E332EF0003BA6D5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF071E332EF0003BA6D5 /* README.md */; };
 		26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
 		26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF061E332EF0003BA6D5 /* HammingTest.swift */; };
 		26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
-		26B3DF261E34913A003BA6D5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF241E34913A003BA6D5 /* README.md */; };
 		26B3DF281E34915F003BA6D5 /* Dna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF271E34915F003BA6D5 /* Dna.swift */; };
 		26B3DF291E34915F003BA6D5 /* Dna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF271E34915F003BA6D5 /* Dna.swift */; };
 		26B3DF2A1E349225003BA6D5 /* NucleotideCountTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF231E34913A003BA6D5 /* NucleotideCountTest.swift */; };
@@ -51,6 +49,13 @@
 		26D0D8C31E483E17004C5D3C /* GradeSchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C11E483E17004C5D3C /* GradeSchoolTests.swift */; };
 		26D0D8C41E483E17004C5D3C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C21E483E17004C5D3C /* README.md */; };
 		26D0D8C61E485316004C5D3C /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C51E485316004C5D3C /* GradeSchool.swift */; };
+		26D0D8CA1E4855AA004C5D3C /* EtlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C81E4855AA004C5D3C /* EtlTests.swift */; };
+		26D0D8CB1E4855AA004C5D3C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C91E4855AA004C5D3C /* README.md */; };
+		26FDE1261E4993EF00C646CC /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1251E4993EF00C646CC /* ETL.swift */; };
+		26FDE1271E49944800C646CC /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1251E4993EF00C646CC /* ETL.swift */; };
+		26FDE1291E49953D00C646CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1281E49953D00C646CC /* main.swift */; };
+		26FDE12A1E49954500C646CC /* Accumulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8B21E41BA57004C5D3C /* Accumulate.swift */; };
+		26FDE12B1E49956200C646CC /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C51E485316004C5D3C /* GradeSchool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +114,10 @@
 		26D0D8C11E483E17004C5D3C /* GradeSchoolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchoolTests.swift; sourceTree = "<group>"; };
 		26D0D8C21E483E17004C5D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26D0D8C51E485316004C5D3C /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
+		26D0D8C81E4855AA004C5D3C /* EtlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtlTests.swift; sourceTree = "<group>"; };
+		26D0D8C91E4855AA004C5D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26FDE1251E4993EF00C646CC /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
+		26FDE1281E49953D00C646CC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,9 +192,11 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26FDE1281E49953D00C646CC /* main.swift */,
 				26D0D8B01E41BA57004C5D3C /* accumulate */,
 				26B3DF221E34913A003BA6D5 /* nucleotide-count */,
 				26D0D8C01E483E17004C5D3C /* grade-school */,
+				26D0D8C71E4855AA004C5D3C /* etl */,
 				26B3DF051E332EF0003BA6D5 /* hamming */,
 				26D0D8B91E47A8BD004C5D3C /* raindrops */,
 				260F5BF41E090CCB0013503E /* grains */,
@@ -307,6 +318,16 @@
 			path = "grade-school";
 			sourceTree = SOURCE_ROOT;
 		};
+		26D0D8C71E4855AA004C5D3C /* etl */ = {
+			isa = PBXGroup;
+			children = (
+				26FDE1251E4993EF00C646CC /* ETL.swift */,
+				26D0D8C81E4855AA004C5D3C /* EtlTests.swift */,
+				26D0D8C91E4855AA004C5D3C /* README.md */,
+			);
+			path = etl;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -399,9 +420,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B3DF091E332EF0003BA6D5 /* README.md in Sources */,
-				26B3DF261E34913A003BA6D5 /* README.md in Sources */,
+				26FDE1271E49944800C646CC /* ETL.swift in Sources */,
+				26FDE1291E49953D00C646CC /* main.swift in Sources */,
 				26373C4A1E04D36200F4DCF0 /* helloWorld.swift in Sources */,
+				26FDE12A1E49954500C646CC /* Accumulate.swift in Sources */,
+				26FDE12B1E49956200C646CC /* GradeSchool.swift in Sources */,
 				26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */,
 				26B3DF281E34915F003BA6D5 /* Dna.swift in Sources */,
 			);
@@ -412,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				260F5BDC1E064A8D0013503E /* RnaTranscriptionTest.swift in Sources */,
+				26FDE1261E4993EF00C646CC /* ETL.swift in Sources */,
 				26373C461E04BCB900F4DCF0 /* helloWorldTest.swift in Sources */,
 				260F5BF11E08FAE00013503E /* README.md in Sources */,
 				260F5BFA1E0913C40013503E /* grains.swift in Sources */,
@@ -420,6 +444,7 @@
 				260F5BF31E090B0D0013503E /* Bob.swift in Sources */,
 				26D0D8C41E483E17004C5D3C /* README.md in Sources */,
 				26D0D8BE1E47A8BD004C5D3C /* RaindropsTests.swift in Sources */,
+				26D0D8CA1E4855AA004C5D3C /* EtlTests.swift in Sources */,
 				26B3DF291E34915F003BA6D5 /* Dna.swift in Sources */,
 				26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */,
 				260F5BDB1E064A8D0013503E /* README.md in Sources */,
@@ -440,6 +465,7 @@
 				26373C561E050F5400F4DCF0 /* GigasecondTest.swift in Sources */,
 				26D0D8B61E41BA57004C5D3C /* Accumulate.swift in Sources */,
 				26373C5D1E05F01200F4DCF0 /* DifferenceOfSquaresTest.swift in Sources */,
+				26D0D8CB1E4855AA004C5D3C /* README.md in Sources */,
 				260F5BEA1E0738090013503E /* SpaceAgeTest.swift in Sources */,
 				26D0D8B71E41BA57004C5D3C /* AccumulateTests.swift in Sources */,
 				26D0D8BF1E47A8BD004C5D3C /* README.md in Sources */,

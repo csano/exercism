@@ -108,6 +108,9 @@
     <Compile Include="strain\StrainTest.cs" />
     <Compile Include="sum-of-multiples\SumOfMultiples.cs" />
     <Compile Include="sum-of-multiples\SumOfMultiplesTest.cs" />
+    <Compile Include="triangle\Triangle.cs" />
+    <Compile Include="triangle\TriangleException.cs" />
+    <Compile Include="triangle\TriangleKind.cs" />
     <Compile Include="triangle\TriangleTest.cs" />
   </ItemGroup>
   <ItemGroup>

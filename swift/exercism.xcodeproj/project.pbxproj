@@ -56,6 +56,9 @@
 		26FDE1291E49953D00C646CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1281E49953D00C646CC /* main.swift */; };
 		26FDE12A1E49954500C646CC /* Accumulate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8B21E41BA57004C5D3C /* Accumulate.swift */; };
 		26FDE12B1E49956200C646CC /* GradeSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C51E485316004C5D3C /* GradeSchool.swift */; };
+		26FDE1301E49960000C646CC /* Isogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE12D1E49960000C646CC /* Isogram.swift */; };
+		26FDE1311E49960000C646CC /* IsogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE12E1E49960000C646CC /* IsogramTests.swift */; };
+		26FDE1321E49960000C646CC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE12F1E49960000C646CC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -118,6 +121,9 @@
 		26D0D8C91E4855AA004C5D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26FDE1251E4993EF00C646CC /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
 		26FDE1281E49953D00C646CC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		26FDE12D1E49960000C646CC /* Isogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Isogram.swift; sourceTree = "<group>"; };
+		26FDE12E1E49960000C646CC /* IsogramTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsogramTests.swift; sourceTree = "<group>"; };
+		26FDE12F1E49960000C646CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +198,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26FDE12C1E49960000C646CC /* isogram */,
 				26FDE1281E49953D00C646CC /* main.swift */,
 				26D0D8B01E41BA57004C5D3C /* accumulate */,
 				26B3DF221E34913A003BA6D5 /* nucleotide-count */,
@@ -328,6 +335,16 @@
 			path = etl;
 			sourceTree = "<group>";
 		};
+		26FDE12C1E49960000C646CC /* isogram */ = {
+			isa = PBXGroup;
+			children = (
+				26FDE12D1E49960000C646CC /* Isogram.swift */,
+				26FDE12E1E49960000C646CC /* IsogramTests.swift */,
+				26FDE12F1E49960000C646CC /* README.md */,
+			);
+			path = isogram;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -435,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				260F5BDC1E064A8D0013503E /* RnaTranscriptionTest.swift in Sources */,
+				26FDE1301E49960000C646CC /* Isogram.swift in Sources */,
 				26FDE1261E4993EF00C646CC /* ETL.swift in Sources */,
 				26373C461E04BCB900F4DCF0 /* helloWorldTest.swift in Sources */,
 				260F5BF11E08FAE00013503E /* README.md in Sources */,
@@ -456,6 +474,7 @@
 				26373C521E05096A00F4DCF0 /* year.swift in Sources */,
 				260F5BE91E0738080013503E /* README.md in Sources */,
 				260F5BF71E090CCC0013503E /* GrainsTest.swift in Sources */,
+				26FDE1321E49960000C646CC /* README.md in Sources */,
 				260F5BE31E0674C20013503E /* SumOfMultiplesTest.swift in Sources */,
 				26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */,
 				26D0D8C31E483E17004C5D3C /* GradeSchoolTests.swift in Sources */,
@@ -473,6 +492,7 @@
 				26D0D8BD1E47A8BD004C5D3C /* Raindrops.swift in Sources */,
 				26B3DF2A1E349225003BA6D5 /* NucleotideCountTest.swift in Sources */,
 				26373C4F1E04D49400F4DCF0 /* LeapTest.swift in Sources */,
+				26FDE1311E49960000C646CC /* IsogramTests.swift in Sources */,
 				260F5BDE1E064AB30013503E /* nucleotide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

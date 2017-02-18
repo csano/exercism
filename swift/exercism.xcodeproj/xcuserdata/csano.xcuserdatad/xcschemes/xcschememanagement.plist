@@ -14,18 +14,32 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>All in IsogramTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>-[IsogramTests testHypotheticalIsogrammicWordWithHyphen].xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>26373C271E04BBDC00F4DCF0</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>26373C3D1E04BCB200F4DCF0</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 	</dict>
 </dict>

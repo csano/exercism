@@ -1,15 +1,11 @@
 class Clock : Equatable, CustomStringConvertible {
     let minutes : Int;
 
-    convenience init(hours: Int) {
-        self.init(hours: hours, minutes: 0)
-    }
-
-    init (hours : Int, minutes: Int) {
+    init (hours : Int, minutes: Int = 0) {
         var calculatedMinutes = minutes + (hours * 60)
 
-        while calculatedMinutes < 0 {
-            calculatedMinutes = (24 * 60) + calculatedMinutes
+        if calculatedMinutes < 0 {
+            calculatedMinutes = 1440 - (abs(calculatedMinutes) % 1440)
         }
 
         self.minutes = calculatedMinutes

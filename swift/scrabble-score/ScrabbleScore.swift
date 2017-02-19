@@ -1,3 +1,5 @@
+import Foundation
+
 class Scrabble {
     let word : String?
 

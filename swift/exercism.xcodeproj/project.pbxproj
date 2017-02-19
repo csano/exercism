@@ -38,6 +38,9 @@
 		26924F4C1E5960160032EA5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26924F491E5960160032EA5F /* README.md */; };
 		26924F4D1E5960160032EA5F /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F4A1E5960160032EA5F /* Triangle.swift */; };
 		26924F4E1E5960160032EA5F /* TriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F4B1E5960160032EA5F /* TriangleTests.swift */; };
+		26924F551E596A410032EA5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26924F511E596A410032EA5F /* README.md */; };
+		26924F561E596A410032EA5F /* RobotName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F521E596A410032EA5F /* RobotName.swift */; };
+		26924F571E596A410032EA5F /* RobotNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F531E596A410032EA5F /* RobotNameTests.swift */; };
 		26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
 		26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF061E332EF0003BA6D5 /* HammingTest.swift */; };
 		26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
@@ -110,6 +113,9 @@
 		26924F491E5960160032EA5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26924F4A1E5960160032EA5F /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		26924F4B1E5960160032EA5F /* TriangleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleTests.swift; sourceTree = "<group>"; };
+		26924F511E596A410032EA5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26924F521E596A410032EA5F /* RobotName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotName.swift; sourceTree = "<group>"; };
+		26924F531E596A410032EA5F /* RobotNameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotNameTests.swift; sourceTree = "<group>"; };
 		26B3DF061E332EF0003BA6D5 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
 		26B3DF071E332EF0003BA6D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
@@ -210,6 +216,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26924F4F1E596A410032EA5F /* robot-name */,
 				26924F481E5960160032EA5F /* triangle */,
 				26FDE12C1E49960000C646CC /* isogram */,
 				26FDE1281E49953D00C646CC /* main.swift */,
@@ -297,6 +304,16 @@
 			);
 			path = triangle;
 			sourceTree = SOURCE_ROOT;
+		};
+		26924F4F1E596A410032EA5F /* robot-name */ = {
+			isa = PBXGroup;
+			children = (
+				26924F511E596A410032EA5F /* README.md */,
+				26924F521E596A410032EA5F /* RobotName.swift */,
+				26924F531E596A410032EA5F /* RobotNameTests.swift */,
+			);
+			path = "robot-name";
+			sourceTree = "<group>";
 		};
 		26B3DF051E332EF0003BA6D5 /* hamming */ = {
 			isa = PBXGroup;
@@ -497,10 +514,13 @@
 				26924F4C1E5960160032EA5F /* README.md in Sources */,
 				26D0D8C61E485316004C5D3C /* GradeSchool.swift in Sources */,
 				26924F4D1E5960160032EA5F /* Triangle.swift in Sources */,
+				26924F561E596A410032EA5F /* RobotName.swift in Sources */,
 				260F5BF31E090B0D0013503E /* Bob.swift in Sources */,
+				26924F551E596A410032EA5F /* README.md in Sources */,
 				26D0D8C41E483E17004C5D3C /* README.md in Sources */,
 				26D0D8BE1E47A8BD004C5D3C /* RaindropsTests.swift in Sources */,
 				26D0D8CA1E4855AA004C5D3C /* EtlTests.swift in Sources */,
+				26924F571E596A410032EA5F /* RobotNameTests.swift in Sources */,
 				26B3DF291E34915F003BA6D5 /* Dna.swift in Sources */,
 				26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */,
 				260F5BDB1E064A8D0013503E /* README.md in Sources */,

@@ -44,6 +44,9 @@
 		26924F5C1E5981920032EA5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26924F591E5981920032EA5F /* README.md */; };
 		26924F5D1E5981920032EA5F /* ScrabbleScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F5A1E5981920032EA5F /* ScrabbleScore.swift */; };
 		26924F5E1E5981920032EA5F /* ScrabbleScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F5B1E5981920032EA5F /* ScrabbleScoreTests.swift */; };
+		26924F631E5988140032EA5F /* KindergartenGardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F601E5988140032EA5F /* KindergartenGardenTests.swift */; };
+		26924F641E5988140032EA5F /* KingergartenGarden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F611E5988140032EA5F /* KingergartenGarden.swift */; };
+		26924F651E5988140032EA5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26924F621E5988140032EA5F /* README.md */; };
 		26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
 		26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF061E332EF0003BA6D5 /* HammingTest.swift */; };
 		26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
@@ -122,6 +125,9 @@
 		26924F591E5981920032EA5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26924F5A1E5981920032EA5F /* ScrabbleScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrabbleScore.swift; sourceTree = "<group>"; };
 		26924F5B1E5981920032EA5F /* ScrabbleScoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrabbleScoreTests.swift; sourceTree = "<group>"; };
+		26924F601E5988140032EA5F /* KindergartenGardenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KindergartenGardenTests.swift; sourceTree = "<group>"; };
+		26924F611E5988140032EA5F /* KingergartenGarden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingergartenGarden.swift; sourceTree = "<group>"; };
+		26924F621E5988140032EA5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26B3DF061E332EF0003BA6D5 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
 		26B3DF071E332EF0003BA6D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
@@ -222,6 +228,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26924F5F1E5988140032EA5F /* kindergarten-garden */,
 				26924F581E5981920032EA5F /* scrabble-score */,
 				26924F4F1E596A410032EA5F /* robot-name */,
 				26924F481E5960160032EA5F /* triangle */,
@@ -330,6 +337,16 @@
 				26924F5B1E5981920032EA5F /* ScrabbleScoreTests.swift */,
 			);
 			path = "scrabble-score";
+			sourceTree = "<group>";
+		};
+		26924F5F1E5988140032EA5F /* kindergarten-garden */ = {
+			isa = PBXGroup;
+			children = (
+				26924F601E5988140032EA5F /* KindergartenGardenTests.swift */,
+				26924F611E5988140032EA5F /* KingergartenGarden.swift */,
+				26924F621E5988140032EA5F /* README.md */,
+			);
+			path = "kindergarten-garden";
 			sourceTree = "<group>";
 		};
 		26B3DF051E332EF0003BA6D5 /* hamming */ = {
@@ -533,6 +550,7 @@
 				26924F4D1E5960160032EA5F /* Triangle.swift in Sources */,
 				26924F561E596A410032EA5F /* RobotName.swift in Sources */,
 				260F5BF31E090B0D0013503E /* Bob.swift in Sources */,
+				26924F641E5988140032EA5F /* KingergartenGarden.swift in Sources */,
 				26924F551E596A410032EA5F /* README.md in Sources */,
 				26D0D8C41E483E17004C5D3C /* README.md in Sources */,
 				26D0D8BE1E47A8BD004C5D3C /* RaindropsTests.swift in Sources */,
@@ -566,9 +584,11 @@
 				26D0D8B71E41BA57004C5D3C /* AccumulateTests.swift in Sources */,
 				26D0D8BF1E47A8BD004C5D3C /* README.md in Sources */,
 				26924F5D1E5981920032EA5F /* ScrabbleScore.swift in Sources */,
+				26924F631E5988140032EA5F /* KindergartenGardenTests.swift in Sources */,
 				26373C5E1E05F01200F4DCF0 /* README.md in Sources */,
 				26924F471E58C00C0032EA5F /* Clock.swift in Sources */,
 				26D0D8BD1E47A8BD004C5D3C /* Raindrops.swift in Sources */,
+				26924F651E5988140032EA5F /* README.md in Sources */,
 				26B3DF2A1E349225003BA6D5 /* NucleotideCountTest.swift in Sources */,
 				26924F5E1E5981920032EA5F /* ScrabbleScoreTests.swift in Sources */,
 				26373C4F1E04D49400F4DCF0 /* LeapTest.swift in Sources */,

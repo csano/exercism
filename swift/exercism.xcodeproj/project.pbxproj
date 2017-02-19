@@ -47,6 +47,9 @@
 		26924F631E5988140032EA5F /* KindergartenGardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F601E5988140032EA5F /* KindergartenGardenTests.swift */; };
 		26924F641E5988140032EA5F /* KingergartenGarden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F611E5988140032EA5F /* KingergartenGarden.swift */; };
 		26924F651E5988140032EA5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26924F621E5988140032EA5F /* README.md */; };
+		26924F6A1E5A07330032EA5F /* QueenAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F671E5A07330032EA5F /* QueenAttack.swift */; };
+		26924F6B1E5A07330032EA5F /* QueenAttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F681E5A07330032EA5F /* QueenAttackTests.swift */; };
+		26924F6C1E5A07330032EA5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26924F691E5A07330032EA5F /* README.md */; };
 		26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
 		26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF061E332EF0003BA6D5 /* HammingTest.swift */; };
 		26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
@@ -128,6 +131,9 @@
 		26924F601E5988140032EA5F /* KindergartenGardenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KindergartenGardenTests.swift; sourceTree = "<group>"; };
 		26924F611E5988140032EA5F /* KingergartenGarden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingergartenGarden.swift; sourceTree = "<group>"; };
 		26924F621E5988140032EA5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26924F671E5A07330032EA5F /* QueenAttack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueenAttack.swift; sourceTree = "<group>"; };
+		26924F681E5A07330032EA5F /* QueenAttackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueenAttackTests.swift; sourceTree = "<group>"; };
+		26924F691E5A07330032EA5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26B3DF061E332EF0003BA6D5 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
 		26B3DF071E332EF0003BA6D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
@@ -228,6 +234,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26924F661E5A07330032EA5F /* queen-attack */,
 				26924F5F1E5988140032EA5F /* kindergarten-garden */,
 				26924F581E5981920032EA5F /* scrabble-score */,
 				26924F4F1E596A410032EA5F /* robot-name */,
@@ -347,6 +354,16 @@
 				26924F621E5988140032EA5F /* README.md */,
 			);
 			path = "kindergarten-garden";
+			sourceTree = "<group>";
+		};
+		26924F661E5A07330032EA5F /* queen-attack */ = {
+			isa = PBXGroup;
+			children = (
+				26924F671E5A07330032EA5F /* QueenAttack.swift */,
+				26924F681E5A07330032EA5F /* QueenAttackTests.swift */,
+				26924F691E5A07330032EA5F /* README.md */,
+			);
+			path = "queen-attack";
 			sourceTree = "<group>";
 		};
 		26B3DF051E332EF0003BA6D5 /* hamming */ = {
@@ -569,6 +586,7 @@
 				260F5BE91E0738080013503E /* README.md in Sources */,
 				260F5BF71E090CCC0013503E /* GrainsTest.swift in Sources */,
 				26924F5C1E5981920032EA5F /* README.md in Sources */,
+				26924F6A1E5A07330032EA5F /* QueenAttack.swift in Sources */,
 				26FDE1321E49960000C646CC /* README.md in Sources */,
 				260F5BE31E0674C20013503E /* SumOfMultiplesTest.swift in Sources */,
 				26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */,
@@ -578,6 +596,7 @@
 				26373C601E05F2B600F4DCF0 /* squares.swift in Sources */,
 				26373C561E050F5400F4DCF0 /* GigasecondTest.swift in Sources */,
 				26D0D8B61E41BA57004C5D3C /* Accumulate.swift in Sources */,
+				26924F6C1E5A07330032EA5F /* README.md in Sources */,
 				26373C5D1E05F01200F4DCF0 /* DifferenceOfSquaresTest.swift in Sources */,
 				26D0D8CB1E4855AA004C5D3C /* README.md in Sources */,
 				260F5BEA1E0738090013503E /* SpaceAgeTest.swift in Sources */,
@@ -593,6 +612,7 @@
 				26924F5E1E5981920032EA5F /* ScrabbleScoreTests.swift in Sources */,
 				26373C4F1E04D49400F4DCF0 /* LeapTest.swift in Sources */,
 				26FDE1311E49960000C646CC /* IsogramTests.swift in Sources */,
+				26924F6B1E5A07330032EA5F /* QueenAttackTests.swift in Sources */,
 				260F5BDE1E064AB30013503E /* nucleotide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

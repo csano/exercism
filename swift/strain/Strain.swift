@@ -1,15 +1,15 @@
 
-extension Sequence {
-    func keep(_ predicate: (Iterator.Element) -> Bool) -> [Iterator.Element] {
+extension Array {
+    func keep(_ predicate: (Element) -> Bool) -> [Element] {
         return filter({ predicate($0) })
     }
 
-    func discard(_ predicate: (Iterator.Element) -> Bool) -> [Iterator.Element] {
+    func discard(_ predicate: (Iterator.Element) -> Bool) -> [Element] {
         return filter({ !predicate($0) })
     }
 
-    func filter(_ predicate: (Iterator.Element) -> Bool) -> [Iterator.Element] {
-        var out : [Iterator.Element] = []
+    func filter(_ predicate: (Element) -> Bool) -> [Element] {
+        var out = [Element]()
         for element in self {
             if predicate(element) {
                 out.append(element)

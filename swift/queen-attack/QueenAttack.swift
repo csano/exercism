@@ -9,11 +9,7 @@ class Queens : CustomStringConvertible {
     var white : [Int]
     var black : [Int]
 
-    convenience init() {
-        try! self.init(white: [0, 3], black: [7, 3])
-    }
-
-    init(white white: [Int], black black: [Int]) throws {
+    init(white white: [Int] = [0, 3], black black: [Int] = [7, 3]) throws {
 
         guard white.count == 2 && black.count == 2 else {
            throw InitError.incorrectNumberOfCoordinates
@@ -60,18 +56,32 @@ class Queens : CustomStringConvertible {
     }
 
     var canAttack : Bool {
-        if white[0] == black[0] || white[1] == black[1] {
+        var positions = zip(white, black).map( { abs($0.0 - $0.1) })
+
+        if positions.all({ $0 == positions[0] }) || positions.any({ $0 == 0 }) {
             return true
         }
 
-        if abs(white[0] + white[1]) == abs(black[0] + black[1]) {
-            return true
-        }
+        return false
+    }
+}
 
-        if abs(white[0] - white[1]) == abs(black[0] - black[1]) {
-            return true
+private extension Array {
+    func all(_ predicate: (Element) -> Bool) -> Bool {
+        for element in self {
+            if !predicate(element) {
+                return false
+            }
         }
+        return true
+    }
 
+    func any(_ predicate: (Element) -> Bool) -> Bool {
+       for element in self {
+            if predicate(element) {
+                return true
+            }
+        }
         return false
     }
 }

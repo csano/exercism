@@ -57,6 +57,9 @@
 		26924F831E5ABD820032EA5F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26373C381E04BC6D00F4DCF0 /* XCTest.framework */; };
 		26924F841E5ABD880032EA5F /* StrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F701E5A85970032EA5F /* StrainTests.swift */; };
 		26924F851E5ABE8C0032EA5F /* Strain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F6F1E5A85970032EA5F /* Strain.swift */; };
+		26924F8A1E5ACA540032EA5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26924F871E5ACA540032EA5F /* README.md */; };
+		26924F8C1E5ACA540032EA5F /* SieveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F891E5ACA540032EA5F /* SieveTests.swift */; };
+		26924F901E5ACB1F0032EA5F /* Sieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F881E5ACA540032EA5F /* Sieve.swift */; };
 		26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
 		26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF061E332EF0003BA6D5 /* HammingTest.swift */; };
 		26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
@@ -146,6 +149,9 @@
 		26924F701E5A85970032EA5F /* StrainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrainTests.swift; sourceTree = "<group>"; };
 		26924F781E5ABC430032EA5F /* exercism_test.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exercism_test.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		26924F7A1E5ABC430032EA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26924F871E5ACA540032EA5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26924F881E5ACA540032EA5F /* Sieve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sieve.swift; sourceTree = "<group>"; };
+		26924F891E5ACA540032EA5F /* SieveTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SieveTests.swift; sourceTree = "<group>"; };
 		26B3DF061E332EF0003BA6D5 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
 		26B3DF071E332EF0003BA6D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
@@ -254,6 +260,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26924F861E5ACA540032EA5F /* sieve */,
 				26924F6D1E5A85970032EA5F /* strain */,
 				26924F661E5A07330032EA5F /* queen-attack */,
 				26924F5F1E5988140032EA5F /* kindergarten-garden */,
@@ -405,6 +412,16 @@
 				26924F7A1E5ABC430032EA5F /* Info.plist */,
 			);
 			path = exercism_test;
+			sourceTree = "<group>";
+		};
+		26924F861E5ACA540032EA5F /* sieve */ = {
+			isa = PBXGroup;
+			children = (
+				26924F871E5ACA540032EA5F /* README.md */,
+				26924F881E5ACA540032EA5F /* Sieve.swift */,
+				26924F891E5ACA540032EA5F /* SieveTests.swift */,
+			);
+			path = sieve;
 			sourceTree = "<group>";
 		};
 		26B3DF051E332EF0003BA6D5 /* hamming */ = {
@@ -629,6 +646,7 @@
 				26FDE1301E49960000C646CC /* Isogram.swift in Sources */,
 				26FDE1261E4993EF00C646CC /* ETL.swift in Sources */,
 				26373C461E04BCB900F4DCF0 /* helloWorldTest.swift in Sources */,
+				26924F901E5ACB1F0032EA5F /* Sieve.swift in Sources */,
 				260F5BF11E08FAE00013503E /* README.md in Sources */,
 				260F5BFA1E0913C40013503E /* grains.swift in Sources */,
 				26924F461E58BFE00032EA5F /* ClockTests.swift in Sources */,
@@ -676,9 +694,11 @@
 				260F5BEA1E0738090013503E /* SpaceAgeTest.swift in Sources */,
 				26D0D8B71E41BA57004C5D3C /* AccumulateTests.swift in Sources */,
 				26D0D8BF1E47A8BD004C5D3C /* README.md in Sources */,
+				26924F8C1E5ACA540032EA5F /* SieveTests.swift in Sources */,
 				26924F5D1E5981920032EA5F /* ScrabbleScore.swift in Sources */,
 				26924F631E5988140032EA5F /* KindergartenGardenTests.swift in Sources */,
 				26373C5E1E05F01200F4DCF0 /* README.md in Sources */,
+				26924F8A1E5ACA540032EA5F /* README.md in Sources */,
 				26924F471E58C00C0032EA5F /* Clock.swift in Sources */,
 				26D0D8BD1E47A8BD004C5D3C /* Raindrops.swift in Sources */,
 				26924F651E5988140032EA5F /* README.md in Sources */,

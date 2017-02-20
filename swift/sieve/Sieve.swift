@@ -12,7 +12,7 @@ class Sieve {
         for i in 2..<last  {
             if !map.contains(where: { $0.key == i }) {
                 map[i] = true
-                for j in ((i + 1)..<last).filter({ $0 % i == 0 }) {
+                for j in stride(from: i * i, to: last, by: i) {
                     map[j] = false
                 }
             }

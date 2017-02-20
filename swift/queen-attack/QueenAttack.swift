@@ -63,8 +63,8 @@ class Queens : CustomStringConvertible {
     }
 }
 
-private extension Array {
-    func all(_ predicate: (Element) -> Bool) -> Bool {
+private extension Sequence where Iterator.Element == Int {
+    func all(_ predicate: (Iterator.Element) -> Bool) -> Bool {
         for element in self {
             if !predicate(element) {
                 return false
@@ -73,12 +73,7 @@ private extension Array {
         return true
     }
 
-    func any(_ predicate: (Element) -> Bool) -> Bool {
-       for element in self {
-            if predicate(element) {
-                return true
-            }
-        }
-        return false
+    func any(_ predicate: (Iterator.Element) -> Bool) -> Bool {
+        return contains(where: predicate)
     }
 }

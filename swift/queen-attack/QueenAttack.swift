@@ -30,14 +30,11 @@ class Queens : CustomStringConvertible {
     var description : String {
         var lines : [String] = []
         for x in 0..<8 {
-            var newline = ""
+            var markers : [String] = []
             for y in 0..<8 {
-                newline += getMarker(currentCoordinate: [x, y], white: white, black: black)
-                if (y != 7) {
-                    newline += " "
-                }
+                markers.append(getMarker(currentCoordinate: [x, y], white: white, black: black))
             }
-            lines.append(newline)
+            lines.append(markers.joined(separator: " "))
         }
         return lines.joined(separator:"\n")
     }

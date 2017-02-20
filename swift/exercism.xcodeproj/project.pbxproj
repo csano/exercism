@@ -50,6 +50,13 @@
 		26924F6A1E5A07330032EA5F /* QueenAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F671E5A07330032EA5F /* QueenAttack.swift */; };
 		26924F6B1E5A07330032EA5F /* QueenAttackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F681E5A07330032EA5F /* QueenAttackTests.swift */; };
 		26924F6C1E5A07330032EA5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26924F691E5A07330032EA5F /* README.md */; };
+		26924F711E5A85970032EA5F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26924F6E1E5A85970032EA5F /* README.md */; };
+		26924F721E5A85970032EA5F /* Strain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F6F1E5A85970032EA5F /* Strain.swift */; };
+		26924F731E5A85970032EA5F /* StrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F701E5A85970032EA5F /* StrainTests.swift */; };
+		26924F801E5ABC700032EA5F /* Strain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F6F1E5A85970032EA5F /* Strain.swift */; };
+		26924F831E5ABD820032EA5F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26373C381E04BC6D00F4DCF0 /* XCTest.framework */; };
+		26924F841E5ABD880032EA5F /* StrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F701E5A85970032EA5F /* StrainTests.swift */; };
+		26924F851E5ABE8C0032EA5F /* Strain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F6F1E5A85970032EA5F /* Strain.swift */; };
 		26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
 		26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF061E332EF0003BA6D5 /* HammingTest.swift */; };
 		26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */; };
@@ -134,6 +141,11 @@
 		26924F671E5A07330032EA5F /* QueenAttack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueenAttack.swift; sourceTree = "<group>"; };
 		26924F681E5A07330032EA5F /* QueenAttackTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueenAttackTests.swift; sourceTree = "<group>"; };
 		26924F691E5A07330032EA5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26924F6E1E5A85970032EA5F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26924F6F1E5A85970032EA5F /* Strain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strain.swift; sourceTree = "<group>"; };
+		26924F701E5A85970032EA5F /* StrainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrainTests.swift; sourceTree = "<group>"; };
+		26924F781E5ABC430032EA5F /* exercism_test.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exercism_test.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		26924F7A1E5ABC430032EA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26B3DF061E332EF0003BA6D5 /* HammingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingTest.swift; sourceTree = "<group>"; };
 		26B3DF071E332EF0003BA6D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26B3DF0A1E332FB4003BA6D5 /* Hamming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hamming.swift; sourceTree = "<group>"; };
@@ -175,6 +187,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				26373C471E04BCCC00F4DCF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26924F751E5ABC430032EA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26924F831E5ABD820032EA5F /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +254,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26924F6D1E5A85970032EA5F /* strain */,
 				26924F661E5A07330032EA5F /* queen-attack */,
 				26924F5F1E5988140032EA5F /* kindergarten-garden */,
 				26924F581E5981920032EA5F /* scrabble-score */,
@@ -256,6 +277,7 @@
 				26373C531E050F5400F4DCF0 /* gigasecond */,
 				26373C4C1E04D49400F4DCF0 /* leap */,
 				26373C321E04BC3800F4DCF0 /* hello-world */,
+				26924F791E5ABC430032EA5F /* exercism_test */,
 				26373C291E04BBDC00F4DCF0 /* Products */,
 				26373C371E04BC6D00F4DCF0 /* Frameworks */,
 				5A8D74FC7BF2AE15D3125B62 /* clock */,
@@ -267,6 +289,7 @@
 			children = (
 				26373C281E04BBDC00F4DCF0 /* exercism */,
 				26373C3E1E04BCB200F4DCF0 /* unittests.xctest */,
+				26924F781E5ABC430032EA5F /* exercism_test.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -364,6 +387,24 @@
 				26924F691E5A07330032EA5F /* README.md */,
 			);
 			path = "queen-attack";
+			sourceTree = "<group>";
+		};
+		26924F6D1E5A85970032EA5F /* strain */ = {
+			isa = PBXGroup;
+			children = (
+				26924F6E1E5A85970032EA5F /* README.md */,
+				26924F6F1E5A85970032EA5F /* Strain.swift */,
+				26924F701E5A85970032EA5F /* StrainTests.swift */,
+			);
+			path = strain;
+			sourceTree = "<group>";
+		};
+		26924F791E5ABC430032EA5F /* exercism_test */ = {
+			isa = PBXGroup;
+			children = (
+				26924F7A1E5ABC430032EA5F /* Info.plist */,
+			);
+			path = exercism_test;
 			sourceTree = "<group>";
 		};
 		26B3DF051E332EF0003BA6D5 /* hamming */ = {
@@ -484,6 +525,23 @@
 			productReference = 26373C3E1E04BCB200F4DCF0 /* unittests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		26924F771E5ABC430032EA5F /* exercism_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26924F7B1E5ABC430032EA5F /* Build configuration list for PBXNativeTarget "exercism_test" */;
+			buildPhases = (
+				26924F741E5ABC430032EA5F /* Sources */,
+				26924F751E5ABC430032EA5F /* Frameworks */,
+				26924F761E5ABC430032EA5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = exercism_test;
+			productName = exercism_test;
+			productReference = 26924F781E5ABC430032EA5F /* exercism_test.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -503,6 +561,10 @@
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
+					26924F771E5ABC430032EA5F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 26373C231E04BBDC00F4DCF0 /* Build configuration list for PBXProject "exercism" */;
@@ -519,6 +581,7 @@
 			targets = (
 				26373C271E04BBDC00F4DCF0 /* exercism */,
 				26373C3D1E04BCB200F4DCF0 /* unittests */,
+				26924F771E5ABC430032EA5F /* exercism_test */,
 			);
 		};
 /* End PBXProject section */
@@ -532,6 +595,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26924F761E5ABC430032EA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -542,6 +612,7 @@
 				26FDE1271E49944800C646CC /* ETL.swift in Sources */,
 				26FDE1291E49953D00C646CC /* main.swift in Sources */,
 				26373C4A1E04D36200F4DCF0 /* helloWorld.swift in Sources */,
+				26924F851E5ABE8C0032EA5F /* Strain.swift in Sources */,
 				26FDE12A1E49954500C646CC /* Accumulate.swift in Sources */,
 				26FDE12B1E49956200C646CC /* GradeSchool.swift in Sources */,
 				26B3DF211E334DB3003BA6D5 /* Hamming.swift in Sources */,
@@ -576,9 +647,11 @@
 				26B3DF291E34915F003BA6D5 /* Dna.swift in Sources */,
 				26373C4B1E04D37E00F4DCF0 /* helloWorld.swift in Sources */,
 				260F5BDB1E064A8D0013503E /* README.md in Sources */,
+				26924F711E5A85970032EA5F /* README.md in Sources */,
 				260F5BEC1E073F500013503E /* SpaceAge.swift in Sources */,
 				260F5BF01E08FAE00013503E /* BobTest.swift in Sources */,
 				26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */,
+				26924F731E5A85970032EA5F /* StrainTests.swift in Sources */,
 				260F5BF81E090CCC0013503E /* README.md in Sources */,
 				260F5BE21E0674C20013503E /* README.md in Sources */,
 				26924F4E1E5960160032EA5F /* TriangleTests.swift in Sources */,
@@ -591,6 +664,7 @@
 				260F5BE31E0674C20013503E /* SumOfMultiplesTest.swift in Sources */,
 				26B3DF0C1E332FB9003BA6D5 /* Hamming.swift in Sources */,
 				26D0D8C31E483E17004C5D3C /* GradeSchoolTests.swift in Sources */,
+				26924F721E5A85970032EA5F /* Strain.swift in Sources */,
 				260F5BE51E0678170013503E /* sumOfMultiples.swift in Sources */,
 				26373C591E05EF8700F4DCF0 /* gigasecond.swift in Sources */,
 				26373C601E05F2B600F4DCF0 /* squares.swift in Sources */,
@@ -614,6 +688,15 @@
 				26FDE1311E49960000C646CC /* IsogramTests.swift in Sources */,
 				26924F6B1E5A07330032EA5F /* QueenAttackTests.swift in Sources */,
 				260F5BDE1E064AB30013503E /* nucleotide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26924F741E5ABC430032EA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26924F841E5ABD880032EA5F /* StrainTests.swift in Sources */,
+				26924F801E5ABC700032EA5F /* Strain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,6 +838,34 @@
 			};
 			name = Release;
 		};
+		26924F7C1E5ABC430032EA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = exercism_test/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.exercism-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		26924F7D1E5ABC430032EA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = exercism_test/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrissano.exercism-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -784,6 +895,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		26924F7B1E5ABC430032EA5F /* Build configuration list for PBXNativeTarget "exercism_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26924F7C1E5ABC430032EA5F /* Debug */,
+				26924F7D1E5ABC430032EA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

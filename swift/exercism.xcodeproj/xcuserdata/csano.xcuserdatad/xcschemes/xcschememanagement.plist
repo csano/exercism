@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>exercism_test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>unittests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true />
 		</dict>
 		<key>26373C3D1E04BCB200F4DCF0</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>26924F771E5ABC430032EA5F</key>
 		<dict>
 			<key>primary</key>
 			<true />

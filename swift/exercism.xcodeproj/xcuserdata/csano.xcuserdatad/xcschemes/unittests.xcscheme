@@ -7,16 +7,16 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26373C271E04BBDC00F4DCF0"
-               BuildableName = "exercism"
-               BlueprintName = "exercism"
+               BlueprintIdentifier = "26373C3D1E04BCB200F4DCF0"
+               BuildableName = "unittests.xctest"
+               BlueprintName = "unittests"
                ReferencedContainer = "container:exercism.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -39,6 +39,15 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "26373C271E04BBDC00F4DCF0"
+            BuildableName = "exercism"
+            BlueprintName = "exercism"
+            ReferencedContainer = "container:exercism.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>

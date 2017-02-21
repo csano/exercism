@@ -48,6 +48,7 @@
     <Compile Include="accumulate\AccumulationExtensions.cs" />
     <Compile Include="bank-account\BankAccount.cs" />
     <Compile Include="bank-account\BankAccountTest.cs" />
+    <Compile Include="beer-song\BeerTest.cs" />
     <Compile Include="bob\Bob.cs" />
     <Compile Include="bob\BobTest.cs" />
     <Compile Include="clock\Clock.cs" />
@@ -116,6 +117,7 @@
   <ItemGroup>
     <None Include="accumulate\README.md" />
     <None Include="bank-account\README.md" />
+    <None Include="beer-song\README.md" />
     <None Include="bob\README.md" />
     <None Include="clock\README.md" />
     <None Include="difference-of-squares\README.md" />

@@ -78,6 +78,9 @@
 		26D0D8CB1E4855AA004C5D3C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26D0D8C91E4855AA004C5D3C /* README.md */; };
 		26F7CF431E5B726300C98A02 /* Sieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F881E5ACA540032EA5F /* Sieve.swift */; };
 		26F7CF441E5B729400C98A02 /* Sieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26924F881E5ACA540032EA5F /* Sieve.swift */; };
+		26F7CF491E5C122C00C98A02 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F7CF461E5C122C00C98A02 /* PhoneNumber.swift */; };
+		26F7CF4A1E5C122C00C98A02 /* PhoneNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F7CF471E5C122C00C98A02 /* PhoneNumberTests.swift */; };
+		26F7CF4B1E5C122C00C98A02 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26F7CF481E5C122C00C98A02 /* README.md */; };
 		26FDE1261E4993EF00C646CC /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1251E4993EF00C646CC /* ETL.swift */; };
 		26FDE1271E49944800C646CC /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1251E4993EF00C646CC /* ETL.swift */; };
 		26FDE1291E49953D00C646CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1281E49953D00C646CC /* main.swift */; };
@@ -169,6 +172,9 @@
 		26D0D8C51E485316004C5D3C /* GradeSchool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeSchool.swift; sourceTree = "<group>"; };
 		26D0D8C81E4855AA004C5D3C /* EtlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtlTests.swift; sourceTree = "<group>"; };
 		26D0D8C91E4855AA004C5D3C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		26F7CF461E5C122C00C98A02 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		26F7CF471E5C122C00C98A02 /* PhoneNumberTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberTests.swift; sourceTree = "<group>"; };
+		26F7CF481E5C122C00C98A02 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26FDE1251E4993EF00C646CC /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
 		26FDE1281E49953D00C646CC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		26FDE12D1E49960000C646CC /* Isogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Isogram.swift; sourceTree = "<group>"; };
@@ -259,6 +265,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26F7CF451E5C122C00C98A02 /* phone-number */,
 				26924F861E5ACA540032EA5F /* sieve */,
 				26924F6D1E5A85970032EA5F /* strain */,
 				26924F661E5A07330032EA5F /* queen-attack */,
@@ -483,6 +490,16 @@
 			path = etl;
 			sourceTree = "<group>";
 		};
+		26F7CF451E5C122C00C98A02 /* phone-number */ = {
+			isa = PBXGroup;
+			children = (
+				26F7CF461E5C122C00C98A02 /* PhoneNumber.swift */,
+				26F7CF471E5C122C00C98A02 /* PhoneNumberTests.swift */,
+				26F7CF481E5C122C00C98A02 /* README.md */,
+			);
+			path = "phone-number";
+			sourceTree = SOURCE_ROOT;
+		};
 		26FDE12C1E49960000C646CC /* isogram */ = {
 			isa = PBXGroup;
 			children = (
@@ -691,13 +708,16 @@
 				26D0D8CB1E4855AA004C5D3C /* README.md in Sources */,
 				260F5BEA1E0738090013503E /* SpaceAgeTest.swift in Sources */,
 				26D0D8B71E41BA57004C5D3C /* AccumulateTests.swift in Sources */,
+				26F7CF491E5C122C00C98A02 /* PhoneNumber.swift in Sources */,
 				26D0D8BF1E47A8BD004C5D3C /* README.md in Sources */,
 				26924F8C1E5ACA540032EA5F /* SieveTests.swift in Sources */,
+				26F7CF4B1E5C122C00C98A02 /* README.md in Sources */,
 				26924F5D1E5981920032EA5F /* ScrabbleScore.swift in Sources */,
 				26924F631E5988140032EA5F /* KindergartenGardenTests.swift in Sources */,
 				26373C5E1E05F01200F4DCF0 /* README.md in Sources */,
 				26924F8A1E5ACA540032EA5F /* README.md in Sources */,
 				26924F471E58C00C0032EA5F /* Clock.swift in Sources */,
+				26F7CF4A1E5C122C00C98A02 /* PhoneNumberTests.swift in Sources */,
 				26D0D8BD1E47A8BD004C5D3C /* Raindrops.swift in Sources */,
 				26924F651E5988140032EA5F /* README.md in Sources */,
 				26B3DF2A1E349225003BA6D5 /* NucleotideCountTest.swift in Sources */,

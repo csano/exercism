@@ -97,6 +97,7 @@
     <Compile Include="proverb\Proverb.cs" />
     <Compile Include="proverb\ProverbTest.cs" />
     <Compile Include="queen-attack\QueenAttackTest.cs" />
+    <Compile Include="queen-attack\Queens.cs" />
     <Compile Include="raindrops\Raindrops.cs" />
     <Compile Include="raindrops\RaindropsTest.cs" />
     <Compile Include="rna-transcription\Complement.cs" />

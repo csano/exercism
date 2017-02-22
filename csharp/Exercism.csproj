@@ -106,6 +106,7 @@
     <Compile Include="rna-transcription\ComplementTest.cs" />
     <Compile Include="robot-name\Robot.cs" />
     <Compile Include="robot-name\RobotNameTest.cs" />
+    <Compile Include="robot-simulator\RobotSimulatorTest.cs" />
     <Compile Include="scrabble-score\Scrabble.cs" />
     <Compile Include="scrabble-score\ScrabbleScoreTest.cs" />
     <Compile Include="sieve\Sieve.cs" />
@@ -147,6 +148,7 @@
     <None Include="raindrops\README.md" />
     <None Include="rna-transcription\README.md" />
     <None Include="robot-name\README.md" />
+    <None Include="robot-simulator\README.md" />
     <None Include="scrabble-score\README.md" />
     <None Include="sieve\README.md" />
     <None Include="space-age\README.md" />

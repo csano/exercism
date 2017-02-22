@@ -48,8 +48,12 @@
     <Compile Include="accumulate\AccumulationExtensions.cs" />
     <Compile Include="bank-account\BankAccount.cs" />
     <Compile Include="bank-account\BankAccountTest.cs" />
+    <Compile Include="beer-song\Beer.cs" />
+    <Compile Include="beer-song\BeerTest.cs" />
     <Compile Include="bob\Bob.cs" />
     <Compile Include="bob\BobTest.cs" />
+    <Compile Include="clock\Clock.cs" />
+    <Compile Include="clock\ClockTest.cs" />
     <Compile Include="difference-of-squares\DifferenceOfSquaresTest.cs" />
     <Compile Include="difference-of-squares\Squares.cs" />
     <Compile Include="error-handling\ErrorHandling.cs" />
@@ -100,17 +104,24 @@
     <Compile Include="robot-name\RobotNameTest.cs" />
     <Compile Include="scrabble-score\Scrabble.cs" />
     <Compile Include="scrabble-score\ScrabbleScoreTest.cs" />
+    <Compile Include="sieve\SieveTest.cs" />
     <Compile Include="space-age\SpaceAge.cs" />
     <Compile Include="space-age\SpaceAgeTest.cs" />
     <Compile Include="strain\ListExtensions.cs" />
     <Compile Include="strain\StrainTest.cs" />
     <Compile Include="sum-of-multiples\SumOfMultiples.cs" />
     <Compile Include="sum-of-multiples\SumOfMultiplesTest.cs" />
+    <Compile Include="triangle\Triangle.cs" />
+    <Compile Include="triangle\TriangleException.cs" />
+    <Compile Include="triangle\TriangleKind.cs" />
+    <Compile Include="triangle\TriangleTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="accumulate\README.md" />
     <None Include="bank-account\README.md" />
+    <None Include="beer-song\README.md" />
     <None Include="bob\README.md" />
+    <None Include="clock\README.md" />
     <None Include="difference-of-squares\README.md" />
     <None Include="error-handling\README.md" />
     <None Include="gigasecond\README.md" />
@@ -130,9 +141,11 @@
     <None Include="rna-transcription\README.md" />
     <None Include="robot-name\README.md" />
     <None Include="scrabble-score\README.md" />
+    <None Include="sieve\README.md" />
     <None Include="space-age\README.md" />
     <None Include="strain\README.md" />
     <None Include="sum-of-multiples\README.md" />
+    <None Include="triangle\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

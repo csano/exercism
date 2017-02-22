@@ -50,6 +50,8 @@
     <Compile Include="bank-account\BankAccountTest.cs" />
     <Compile Include="beer-song\Beer.cs" />
     <Compile Include="beer-song\BeerTest.cs" />
+    <Compile Include="binary-search\BinarySearch.cs" />
+    <Compile Include="binary-search\BinarySearchTest.cs" />
     <Compile Include="bob\Bob.cs" />
     <Compile Include="bob\BobTest.cs" />
     <Compile Include="clock\Clock.cs" />
@@ -123,6 +125,7 @@
     <None Include="accumulate\README.md" />
     <None Include="bank-account\README.md" />
     <None Include="beer-song\README.md" />
+    <None Include="binary-search\README.md" />
     <None Include="bob\README.md" />
     <None Include="clock\README.md" />
     <None Include="difference-of-squares\README.md" />

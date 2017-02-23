@@ -106,6 +106,9 @@
     <Compile Include="rna-transcription\ComplementTest.cs" />
     <Compile Include="robot-name\Robot.cs" />
     <Compile Include="robot-name\RobotNameTest.cs" />
+    <Compile Include="robot-simulator\Bearing.cs" />
+    <Compile Include="robot-simulator\Coordinate.cs" />
+    <Compile Include="robot-simulator\RobotSimulator.cs" />
     <Compile Include="robot-simulator\RobotSimulatorTest.cs" />
     <Compile Include="scrabble-score\Scrabble.cs" />
     <Compile Include="scrabble-score\ScrabbleScoreTest.cs" />

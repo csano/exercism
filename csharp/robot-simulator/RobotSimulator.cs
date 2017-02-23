@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 
 public class RobotSimulator
 {
@@ -51,14 +52,19 @@ public class RobotSimulator
         }
     }
 
+    private static int GetNextRotation(Func<Bearing> func)
+    {
+        return (int) func() % 4;
+    }
+
     public void TurnLeft()
     {
-        var current = ((int) Direction - 1) % 4;
+        var current = GetNextRotation(() => Direction - 1);
         Direction = current == -1 ? Bearing.West : (Bearing) current;
     }
 
     public void TurnRight()
     {
-        Direction = (Bearing) (((int) Direction + 1) % 4);
+        Direction = (Bearing) GetNextRotation(() => Direction + 1);
     }
 }

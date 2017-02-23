@@ -70,6 +70,8 @@
     <Compile Include="hamming\HammingTest.cs" />
     <Compile Include="hello-world\HelloWorld.cs" />
     <Compile Include="hello-world\HelloWorldTest.cs" />
+    <Compile Include="isogram\Isogram.cs" />
+    <Compile Include="isogram\IsogramTest.cs" />
     <Compile Include="kindergarten-garden\Garden.cs" />
     <Compile Include="kindergarten-garden\KinderGartenGardenTest.cs" />
     <Compile Include="kindergarten-garden\Plant.cs" />
@@ -139,6 +141,7 @@
     <None Include="grains\README.md" />
     <None Include="hamming\README.md" />
     <None Include="hello-world\README.md" />
+    <None Include="isogram\README.md" />
     <None Include="kindergarten-garden\README.md" />
     <None Include="leap\README.md" />
     <None Include="nucleotide-count\README.md" />

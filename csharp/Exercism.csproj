@@ -114,6 +114,7 @@
     <Compile Include="robot-simulator\RobotSimulatorTest.cs" />
     <Compile Include="scrabble-score\Scrabble.cs" />
     <Compile Include="scrabble-score\ScrabbleScoreTest.cs" />
+    <Compile Include="secret-handshake\SecretHandshakeTest.cs" />
     <Compile Include="sieve\Sieve.cs" />
     <Compile Include="sieve\SieveTest.cs" />
     <Compile Include="space-age\SpaceAge.cs" />
@@ -156,6 +157,7 @@
     <None Include="robot-name\README.md" />
     <None Include="robot-simulator\README.md" />
     <None Include="scrabble-score\README.md" />
+    <None Include="secret-handshake\README.md" />
     <None Include="sieve\README.md" />
     <None Include="space-age\README.md" />
     <None Include="strain\README.md" />

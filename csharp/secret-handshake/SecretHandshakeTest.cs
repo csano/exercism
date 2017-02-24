@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 [TestFixture]
 public class SecretHandshakeTests
@@ -45,23 +43,5 @@ public class SecretHandshakeTests
     public void Test_handshake_11111_to_all_commands_reversed()
     {
         Assert.That(SecretHandshake.Commands(31), Is.EqualTo(new[] { "jump", "close your eyes", "double blink", "wink" }));
-    }
-}
-
-public class SecretHandshake
-{
-    public static string[] Commands(int numberOfCommands)
-    {
-        var mappings = new Dictionary<int, string>()
-        {
-            {0x1, "wink"},
-            {0x2, "double blink"},
-            {0x4, "close your eyes"},
-            {0x8, "jump"},
-        };
-
-        var handshake = mappings.Where(x => (x.Key & numberOfCommands) != 0).Select(x => x.Value);
-
-        return ((numberOfCommands & 10000) != 0 ? handshake.Reverse() : handshake).ToArray();
     }
 }

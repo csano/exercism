@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="accumulate\AccumulateTest.cs" />
     <Compile Include="accumulate\AccumulationExtensions.cs" />
+    <Compile Include="allergies\Allergies.cs" />
     <Compile Include="allergies\AllergiesTest.cs" />
     <Compile Include="bank-account\BankAccount.cs" />
     <Compile Include="bank-account\BankAccountTest.cs" />

@@ -7,10 +7,14 @@ class SimulatedRobot {
         case west
     }
 
-    enum Instruction {
-        case TurnLeft
-        case TurnRight
-        case Advance
+    enum Instruction : Character {
+        case TurnLeft = "L"
+        case TurnRight = "R"
+        case Advance = "A"
+
+        static func fromString(_ instructions : String) -> [Instruction] {
+            return instructions.characters.flatMap({ Instruction(rawValue: $0) })
+        }
     }
 
     var bearing = Bearing.north
@@ -26,7 +30,7 @@ class SimulatedRobot {
 
     func place(x: Int, y: Int, direction : Bearing) {
         at(x: x, y: y)
-        orient(bearing)
+        orient(direction)
     }
 
     func turnLeft() {
@@ -52,20 +56,7 @@ class SimulatedRobot {
     }
 
     func instructions(_ instructions : String) -> [Instruction] {
-        var output = [Instruction]()
-        for instruction in instructions.characters {
-            switch(instruction) {
-                case _ where instruction == "A":
-                    output.append(Instruction.Advance)
-                case _ where instruction == "L":
-                    output.append(Instruction.TurnLeft)
-                case _ where instruction == "R":
-                    output.append(Instruction.TurnRight)
-                default:
-                    break
-            }
-        }
-        return output
+        return Instruction.fromString(instructions)
     }
 
     func evaluate(_ raw : String) {

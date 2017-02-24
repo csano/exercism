@@ -1,5 +1,4 @@
 import XCTest
-@testable import RobotSimulator
 
 class RobotSimulatorTests: XCTestCase {
     var robot = SimulatedRobot()
@@ -135,6 +134,7 @@ class RobotSimulatorTests: XCTestCase {
         XCTAssertEqual([.west], [robot.bearing])
     }
 
+    
     func testInstructManyRobots() {
         var robot1 = SimulatedRobot()
         var robot2 = SimulatedRobot()

@@ -21,28 +21,28 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>-[PhoneNumberTests testPrettyPrintWithFullUSPhoneNumber].xcscheme</key>
+		<key>-[PhoneNumberTests testValidWithTenDigits].xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>-[PhoneNumberTests testValidWithTenDigits].xcscheme</key>
+		<key>-[PerfectNumbersTests testPerfect].xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>-[PerfectNumbersTests testPerfect].xcscheme</key>
+		<key>All in PerfectNumbersTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>All in PerfectNumbersTests.xcscheme</key>
+		<key>All in RobotSimulatorTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false />

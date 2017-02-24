@@ -5,7 +5,7 @@ public class SecretHandshake
 {
     public static string[] Commands(int numberOfCommands)
     {
-        var mappings = new Dictionary<int, string>()
+        var mappings = new Dictionary<int, string>
         {
             {0x1, "wink"},
             {0x2, "double blink"},

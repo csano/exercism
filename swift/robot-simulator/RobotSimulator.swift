@@ -25,8 +25,8 @@ class SimulatedRobot {
     }
 
     func place(x: Int, y: Int, direction : Bearing) {
-        coordinates = [x, y]
-        bearing = direction
+        at(x: x, y: y)
+        orient(bearing)
     }
 
     func turnLeft() {

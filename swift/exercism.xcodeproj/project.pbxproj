@@ -87,6 +87,9 @@
 		26FD61D61E5FD0C400AB7B6B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26FD61D31E5FD0C400AB7B6B /* README.md */; };
 		26FD61D71E5FD0C400AB7B6B /* RobotSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD61D41E5FD0C400AB7B6B /* RobotSimulator.swift */; };
 		26FD61D81E5FD0C400AB7B6B /* RobotSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD61D51E5FD0C400AB7B6B /* RobotSimulatorTests.swift */; };
+		26FD61DD1E6010B500AB7B6B /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD61DA1E6010B500AB7B6B /* BinarySearch.swift */; };
+		26FD61DE1E6010B500AB7B6B /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD61DB1E6010B500AB7B6B /* BinarySearchTests.swift */; };
+		26FD61DF1E6010B500AB7B6B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26FD61DC1E6010B500AB7B6B /* README.md */; };
 		26FDE1261E4993EF00C646CC /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1251E4993EF00C646CC /* ETL.swift */; };
 		26FDE1271E49944800C646CC /* ETL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1251E4993EF00C646CC /* ETL.swift */; };
 		26FDE1291E49953D00C646CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE1281E49953D00C646CC /* main.swift */; };
@@ -187,6 +190,9 @@
 		26FD61D31E5FD0C400AB7B6B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26FD61D41E5FD0C400AB7B6B /* RobotSimulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotSimulator.swift; sourceTree = "<group>"; };
 		26FD61D51E5FD0C400AB7B6B /* RobotSimulatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotSimulatorTests.swift; sourceTree = "<group>"; };
+		26FD61DA1E6010B500AB7B6B /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		26FD61DB1E6010B500AB7B6B /* BinarySearchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTests.swift; sourceTree = "<group>"; };
+		26FD61DC1E6010B500AB7B6B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26FDE1251E4993EF00C646CC /* ETL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETL.swift; sourceTree = "<group>"; };
 		26FDE1281E49953D00C646CC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		26FDE12D1E49960000C646CC /* Isogram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Isogram.swift; sourceTree = "<group>"; };
@@ -277,6 +283,7 @@
 		26373C1F1E04BBDC00F4DCF0 = {
 			isa = PBXGroup;
 			children = (
+				26FD61D91E6010B500AB7B6B /* binary-search */,
 				26FD61D21E5FD0C400AB7B6B /* robot-simulator */,
 				26F7CFC21E5EA97F00C98A02 /* perfect-numbers */,
 				26F7CF451E5C122C00C98A02 /* phone-number */,
@@ -534,6 +541,16 @@
 			path = "robot-simulator";
 			sourceTree = "<group>";
 		};
+		26FD61D91E6010B500AB7B6B /* binary-search */ = {
+			isa = PBXGroup;
+			children = (
+				26FD61DA1E6010B500AB7B6B /* BinarySearch.swift */,
+				26FD61DB1E6010B500AB7B6B /* BinarySearchTests.swift */,
+				26FD61DC1E6010B500AB7B6B /* README.md */,
+			);
+			path = "binary-search";
+			sourceTree = "<group>";
+		};
 		26FDE12C1E49960000C646CC /* isogram */ = {
 			isa = PBXGroup;
 			children = (
@@ -706,6 +723,7 @@
 				26924F4D1E5960160032EA5F /* Triangle.swift in Sources */,
 				26924F561E596A410032EA5F /* RobotName.swift in Sources */,
 				260F5BF31E090B0D0013503E /* Bob.swift in Sources */,
+				26FD61DE1E6010B500AB7B6B /* BinarySearchTests.swift in Sources */,
 				26924F641E5988140032EA5F /* KingergartenGarden.swift in Sources */,
 				26924F551E596A410032EA5F /* README.md in Sources */,
 				26D0D8C41E483E17004C5D3C /* README.md in Sources */,
@@ -720,9 +738,11 @@
 				260F5BF01E08FAE00013503E /* BobTest.swift in Sources */,
 				26B3DF0D1E333013003BA6D5 /* HammingTest.swift in Sources */,
 				26F7CFD11E5EA97F00C98A02 /* PerfectNumbersTests.swift in Sources */,
+				26FD61DF1E6010B500AB7B6B /* README.md in Sources */,
 				26924F731E5A85970032EA5F /* StrainTests.swift in Sources */,
 				260F5BF81E090CCC0013503E /* README.md in Sources */,
 				260F5BE21E0674C20013503E /* README.md in Sources */,
+				26FD61DD1E6010B500AB7B6B /* BinarySearch.swift in Sources */,
 				26924F4E1E5960160032EA5F /* TriangleTests.swift in Sources */,
 				26373C521E05096A00F4DCF0 /* year.swift in Sources */,
 				260F5BE91E0738080013503E /* README.md in Sources */,

@@ -12,7 +12,7 @@ class NumberClassifier {
     }
 
     var classification : Classification {
-        var sum = (1..<number).filter({ number % $0 == 0}).reduce(0, +)
+        let sum = (1..<number).filter({ number % $0 == 0}).reduce(0, +)
 
         switch (sum) {
             case _ where sum == number:

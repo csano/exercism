@@ -68,8 +68,6 @@ class SimulatedRobot {
                     turnLeft()
                 case .TurnRight:
                     turnRight()
-                default:
-                    break
             }
         }
     }

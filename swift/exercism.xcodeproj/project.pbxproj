@@ -98,7 +98,10 @@
 		26FDE1301E49960000C646CC /* Isogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE12D1E49960000C646CC /* Isogram.swift */; };
 		26FDE1311E49960000C646CC /* IsogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE12E1E49960000C646CC /* IsogramTests.swift */; };
 		26FDE1321E49960000C646CC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 26FDE12F1E49960000C646CC /* README.md */; };
+		5A8D7955A259997B963EF522 /* FlattenArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D7988A2784EB00BEA61D0 /* FlattenArrayTests.swift */; };
+		5A8D7BE3994CD7E45DFF20B3 /* FlattenArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D752CDC6FADF8B2C49891 /* FlattenArray.swift */; };
 		5A8D7CE447683DE8F8BB8923 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D7202E2E4C385B4BB503A /* README.md */; };
+		5A8D7EC6686CD9FD84C14FD9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D74361442CA5541D74684 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -200,6 +203,9 @@
 		26FDE12F1E49960000C646CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A8D71861EE3898B62D021BA /* ClockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockTests.swift; sourceTree = "<group>"; };
 		5A8D7202E2E4C385B4BB503A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A8D74361442CA5541D74684 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A8D752CDC6FADF8B2C49891 /* FlattenArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlattenArray.swift; sourceTree = "<group>"; };
+		5A8D7988A2784EB00BEA61D0 /* FlattenArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlattenArrayTests.swift; sourceTree = "<group>"; };
 		5A8D7D371CB194C3C1DFA0FA /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -315,6 +321,7 @@
 				26373C291E04BBDC00F4DCF0 /* Products */,
 				26373C371E04BC6D00F4DCF0 /* Frameworks */,
 				5A8D74FC7BF2AE15D3125B62 /* clock */,
+				5A8D78CE86AC3205204F60EE /* flatten-array */,
 			);
 			sourceTree = "<group>";
 		};
@@ -571,6 +578,16 @@
 			path = clock;
 			sourceTree = "<group>";
 		};
+		5A8D78CE86AC3205204F60EE /* flatten-array */ = {
+			isa = PBXGroup;
+			children = (
+				5A8D74361442CA5541D74684 /* README.md */,
+				5A8D752CDC6FADF8B2C49891 /* FlattenArray.swift */,
+				5A8D7988A2784EB00BEA61D0 /* FlattenArrayTests.swift */,
+			);
+			path = "flatten-array";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -786,6 +803,9 @@
 				26FDE1311E49960000C646CC /* IsogramTests.swift in Sources */,
 				26924F6B1E5A07330032EA5F /* QueenAttackTests.swift in Sources */,
 				260F5BDE1E064AB30013503E /* nucleotide.swift in Sources */,
+				5A8D7EC6686CD9FD84C14FD9 /* README.md in Sources */,
+				5A8D7BE3994CD7E45DFF20B3 /* FlattenArray.swift in Sources */,
+				5A8D7955A259997B963EF522 /* FlattenArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

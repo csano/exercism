@@ -101,6 +101,9 @@
 		5A8D70018248B5990232DC3D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D75F6F3F9934A074C480B /* README.md */; };
 		5A8D7065384FA4CC79DDB84C /* SecretHandshake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D776C088D2F4B38C219F1 /* SecretHandshake.swift */; };
 		5A8D709C296A11E0510393CB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D79DB56BB2AF60E8738C4 /* README.md */; };
+		5A8D7369037C1DEDC121B4E0 /* WordCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D779C11BD9BD65F22E195 /* WordCountTests.swift */; };
+		5A8D758081ABC3FE0BB41CE2 /* WordCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D7AB26064DAAF41EC4280 /* WordCount.swift */; };
+		5A8D77344654E8E636C49CD2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D73F52F0F4BCBA7FF59CA /* README.md */; };
 		5A8D7955A259997B963EF522 /* FlattenArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D7988A2784EB00BEA61D0 /* FlattenArrayTests.swift */; };
 		5A8D7BE3994CD7E45DFF20B3 /* FlattenArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D752CDC6FADF8B2C49891 /* FlattenArray.swift */; };
 		5A8D7C78285623E29A8C2A22 /* Sublist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8D7C9948A22ED0D34373B5 /* Sublist.swift */; };
@@ -209,12 +212,15 @@
 		26FDE12F1E49960000C646CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A8D71861EE3898B62D021BA /* ClockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockTests.swift; sourceTree = "<group>"; };
 		5A8D7202E2E4C385B4BB503A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A8D73F52F0F4BCBA7FF59CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A8D74361442CA5541D74684 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A8D752CDC6FADF8B2C49891 /* FlattenArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlattenArray.swift; sourceTree = "<group>"; };
 		5A8D75F6F3F9934A074C480B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A8D776C088D2F4B38C219F1 /* SecretHandshake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretHandshake.swift; sourceTree = "<group>"; };
+		5A8D779C11BD9BD65F22E195 /* WordCountTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCountTests.swift; sourceTree = "<group>"; };
 		5A8D7988A2784EB00BEA61D0 /* FlattenArrayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlattenArrayTests.swift; sourceTree = "<group>"; };
 		5A8D79DB56BB2AF60E8738C4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A8D7AB26064DAAF41EC4280 /* WordCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCount.swift; sourceTree = "<group>"; };
 		5A8D7C7477FD493CC29345BB /* SublistTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SublistTests.swift; sourceTree = "<group>"; };
 		5A8D7C9948A22ED0D34373B5 /* Sublist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sublist.swift; sourceTree = "<group>"; };
 		5A8D7D371CB194C3C1DFA0FA /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
@@ -336,6 +342,7 @@
 				5A8D78CE86AC3205204F60EE /* flatten-array */,
 				5A8D70C07E0E701074EE0676 /* sublist */,
 				5A8D765B5462B446F851D970 /* secret-handshake */,
+				5A8D7E11149ECF1CA5E34F53 /* word-count */,
 			);
 			sourceTree = "<group>";
 		};
@@ -622,6 +629,16 @@
 			path = "flatten-array";
 			sourceTree = "<group>";
 		};
+		5A8D7E11149ECF1CA5E34F53 /* word-count */ = {
+			isa = PBXGroup;
+			children = (
+				5A8D73F52F0F4BCBA7FF59CA /* README.md */,
+				5A8D7AB26064DAAF41EC4280 /* WordCount.swift */,
+				5A8D779C11BD9BD65F22E195 /* WordCountTests.swift */,
+			);
+			path = "word-count";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -846,6 +863,9 @@
 				5A8D709C296A11E0510393CB /* README.md in Sources */,
 				5A8D7065384FA4CC79DDB84C /* SecretHandshake.swift in Sources */,
 				5A8D7DB74FD4F892F94271F9 /* SecretHandshakeTests.swift in Sources */,
+				5A8D77344654E8E636C49CD2 /* README.md in Sources */,
+				5A8D758081ABC3FE0BB41CE2 /* WordCount.swift in Sources */,
+				5A8D7369037C1DEDC121B4E0 /* WordCountTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

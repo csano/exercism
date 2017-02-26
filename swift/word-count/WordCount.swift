@@ -5,7 +5,7 @@ extension Sequence {
         var output : [T: Int] = [:]
         for element in self {
             let key = key(element)
-            if case nil = output[key] {
+            if case output[key] = nil {
                 output[key] = 1
             } else {
                 output[key]! += 1

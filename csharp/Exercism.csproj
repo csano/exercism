@@ -46,10 +46,14 @@
   <ItemGroup>
     <Compile Include="accumulate\AccumulateTest.cs" />
     <Compile Include="accumulate\AccumulationExtensions.cs" />
+    <Compile Include="allergies\Allergies.cs" />
+    <Compile Include="allergies\AllergiesTest.cs" />
     <Compile Include="bank-account\BankAccount.cs" />
     <Compile Include="bank-account\BankAccountTest.cs" />
     <Compile Include="beer-song\Beer.cs" />
     <Compile Include="beer-song\BeerTest.cs" />
+    <Compile Include="binary-search\BinarySearch.cs" />
+    <Compile Include="binary-search\BinarySearchTest.cs" />
     <Compile Include="bob\Bob.cs" />
     <Compile Include="bob\BobTest.cs" />
     <Compile Include="clock\Clock.cs" />
@@ -68,6 +72,8 @@
     <Compile Include="hamming\HammingTest.cs" />
     <Compile Include="hello-world\HelloWorld.cs" />
     <Compile Include="hello-world\HelloWorldTest.cs" />
+    <Compile Include="isogram\Isogram.cs" />
+    <Compile Include="isogram\IsogramTest.cs" />
     <Compile Include="kindergarten-garden\Garden.cs" />
     <Compile Include="kindergarten-garden\KinderGartenGardenTest.cs" />
     <Compile Include="kindergarten-garden\Plant.cs" />
@@ -96,14 +102,23 @@
     <Compile Include="protein-translation\Tyrosine.cs" />
     <Compile Include="proverb\Proverb.cs" />
     <Compile Include="proverb\ProverbTest.cs" />
+    <Compile Include="queen-attack\QueenAttackTest.cs" />
+    <Compile Include="queen-attack\Queens.cs" />
     <Compile Include="raindrops\Raindrops.cs" />
     <Compile Include="raindrops\RaindropsTest.cs" />
     <Compile Include="rna-transcription\Complement.cs" />
     <Compile Include="rna-transcription\ComplementTest.cs" />
     <Compile Include="robot-name\Robot.cs" />
     <Compile Include="robot-name\RobotNameTest.cs" />
+    <Compile Include="robot-simulator\Bearing.cs" />
+    <Compile Include="robot-simulator\Coordinate.cs" />
+    <Compile Include="robot-simulator\RobotSimulator.cs" />
+    <Compile Include="robot-simulator\RobotSimulatorTest.cs" />
     <Compile Include="scrabble-score\Scrabble.cs" />
     <Compile Include="scrabble-score\ScrabbleScoreTest.cs" />
+    <Compile Include="secret-handshake\SecretHandshake.cs" />
+    <Compile Include="secret-handshake\SecretHandshakeTest.cs" />
+    <Compile Include="sieve\Sieve.cs" />
     <Compile Include="sieve\SieveTest.cs" />
     <Compile Include="space-age\SpaceAge.cs" />
     <Compile Include="space-age\SpaceAgeTest.cs" />
@@ -118,8 +133,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="accumulate\README.md" />
+    <None Include="allergies\README.md" />
     <None Include="bank-account\README.md" />
     <None Include="beer-song\README.md" />
+    <None Include="binary-search\README.md" />
     <None Include="bob\README.md" />
     <None Include="clock\README.md" />
     <None Include="difference-of-squares\README.md" />
@@ -129,6 +146,7 @@
     <None Include="grains\README.md" />
     <None Include="hamming\README.md" />
     <None Include="hello-world\README.md" />
+    <None Include="isogram\README.md" />
     <None Include="kindergarten-garden\README.md" />
     <None Include="leap\README.md" />
     <None Include="nucleotide-count\README.md" />
@@ -137,10 +155,13 @@
     <None Include="perfect-numbers\README.md" />
     <None Include="protein-translation\README.md" />
     <None Include="proverb\README.md" />
+    <None Include="queen-attack\README.md" />
     <None Include="raindrops\README.md" />
     <None Include="rna-transcription\README.md" />
     <None Include="robot-name\README.md" />
+    <None Include="robot-simulator\README.md" />
     <None Include="scrabble-score\README.md" />
+    <None Include="secret-handshake\README.md" />
     <None Include="sieve\README.md" />
     <None Include="space-age\README.md" />
     <None Include="strain\README.md" />

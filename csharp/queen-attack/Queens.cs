@@ -47,17 +47,4 @@ public class Queen : IEquatable<Queen>
         if (ReferenceEquals(this, other)) return true;
         return X == other.X && Y == other.Y;
     }
-
-    public override bool Equals(object obj)
-    {
-        return Equals((Queen) obj);
-    }
-
-    public override int GetHashCode()
-    {
-        unchecked
-        {
-            return (X * 397) ^ Y;
-        }
-    }
 }

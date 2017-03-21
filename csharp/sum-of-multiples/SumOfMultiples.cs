@@ -4,14 +4,9 @@ public class SumOfMultiples
 {
     public static int To(int[] numbers, int max)
     {
-        var output = 0;
-        for (var i = 0; i < max; i++)
-        {
-            if (numbers.Any(num => i % num == 0))
-            {
-                output += i;
-            }
-        }
-        return output;
+        return Enumerable
+                .Range(0, max)
+                .Where(i => numbers.Any(num => i % num == 0))
+                .Sum();
     }
 }

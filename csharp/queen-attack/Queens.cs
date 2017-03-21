@@ -8,6 +8,10 @@ public class Queens
 
     public Queens(Queen white, Queen black)
     {
+        if (white.Equals(black))
+        {
+            throw new ArgumentException();
+        }
         this.white = white;
         this.black = black;
     }
@@ -26,7 +30,7 @@ public class Queens
     }
 }
 
-public class Queen
+public class Queen : IEquatable<Queen>
 {
     public int X { get; }
     public int Y { get; }
@@ -35,5 +39,25 @@ public class Queen
     {
         X = x;
         Y = y;
+    }
+
+    public bool Equals(Queen other)
+    {
+        if (ReferenceEquals(null, other)) return false;
+        if (ReferenceEquals(this, other)) return true;
+        return X == other.X && Y == other.Y;
+    }
+
+    public override bool Equals(object obj)
+    {
+        return Equals((Queen) obj);
+    }
+
+    public override int GetHashCode()
+    {
+        unchecked
+        {
+            return (X * 397) ^ Y;
+        }
     }
 }

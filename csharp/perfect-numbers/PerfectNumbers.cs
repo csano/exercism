@@ -1,15 +1,15 @@
-﻿public class PerfectNumbers
+﻿using System.Linq;
+
+public class PerfectNumbers
 {
     public static NumberType Classify(int number)
     {
-        var sum = 0;
-        for (var i = 1; i <= number / 2; i++)
-        {
-            if (number % i == 0)
-            {
-                sum += i;
-            }
-        }
+        var sum = 
+            Enumerable
+                .Range(1, number / 2)
+                .Where(x => number % x == 0)
+                .Sum();
+
         return DetermineNumberType(number, sum);
     }
 

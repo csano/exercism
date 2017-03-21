@@ -1,9 +1,10 @@
+using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 public class Proverb
 {
-    private static readonly List<string> Items = new List<string>()
+    private static readonly List<string> Items = new List<string>
     {
        "nail",
        "shoe",
@@ -28,13 +29,7 @@ public class Proverb
     
     public static string AllLines()
     {
-        var output = new StringBuilder();
-        for(var lineNumber = 1; lineNumber < ProverbLineCount; lineNumber++)
-        {
-            output.Append(BuildForWantLine(lineNumber) + "\n");
-        }
-        output.Append(GetLastLine());
-        return output.ToString();
+        return string.Join("\n", Enumerable.Range(1, ProverbLineCount).Select(Line));
     }
 
     public static string Line(int lineNumber)

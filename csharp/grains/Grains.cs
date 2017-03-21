@@ -1,15 +1,13 @@
 ﻿using System;
+using System.Linq;
 
 public class Grains
 {
     public static ulong Total()
     {
-        ulong sum = 0;
-        for(var i = 1; i <= 64; i++)
-        {
-            sum += Square(i);
-        }
-        return sum;
+        return Enumerable
+                .Range(1, 64)
+                .Aggregate<int, ulong>(0, (current, x) => current + Square(x));
     }
 
     public static ulong Square(int i)

@@ -4,7 +4,7 @@ using System.Linq;
 
 public static class AccumulationExtensions
 {
-    public static IEnumerable<T> Accumulate<T>(this IEnumerable<T> enumerable, Func<T, T> action)
+    public static IEnumerable<TReturnType> Accumulate<TInputType, TReturnType>(this IEnumerable<TInputType> enumerable, Func<TInputType, TReturnType> action)
     {
         return enumerable.Select(action);
     }

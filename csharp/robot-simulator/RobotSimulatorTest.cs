@@ -1,0 +1,60 @@
+﻿using System.Collections;
+using NUnit.Framework;
+
+public class RobotSimulatorTest
+{
+    [Test]
+    public void Turn_right_edge_case()
+    {
+        var robot = new RobotSimulator(Bearing.West, new Coordinate(0, 0));
+        robot.TurnRight();
+        Assert.That(robot.Direction, Is.EqualTo(Bearing.North));
+    }
+
+    [Test]
+    public void Turn_left_edge_case()
+    {
+        var robot = new RobotSimulator(Bearing.North, new Coordinate(0, 0));
+        robot.TurnLeft();
+        Assert.That(robot.Direction, Is.EqualTo(Bearing.West));
+    }
+
+    [Test]
+    public void Robbie()
+    {
+        var robbie = new RobotSimulator(Bearing.East, new Coordinate(-2, 1));
+        Assert.That(robbie.Direction, Is.EqualTo(Bearing.East));
+        Assert.That(robbie.Coordinate, Is.EqualTo(new Coordinate(-2, 1)));
+
+        robbie.Simulate("RLAALAL");
+        Assert.That(robbie.Direction, Is.EqualTo(Bearing.West));
+        Assert.That(robbie.Coordinate, Is.EqualTo(new Coordinate(0, 2)));
+    }
+
+    [Test]
+    public void Clutz()
+    {
+        var clutz = new RobotSimulator(Bearing.North, new Coordinate(0, 0));
+        clutz.Simulate("LAAARALA");
+        Assert.That(clutz.Direction, Is.EqualTo(Bearing.West));
+        Assert.That(clutz.Coordinate, Is.EqualTo(new Coordinate(-4, 1)));
+    }
+
+    [Test]
+    public void Sphero()
+    {
+        var sphero = new RobotSimulator(Bearing.East, new Coordinate(2, -7));
+        sphero.Simulate("RRAAAAALA");
+        Assert.That(sphero.Direction, Is.EqualTo(Bearing.South));
+        Assert.That(sphero.Coordinate, Is.EqualTo(new Coordinate(-3, -8)));
+    }
+
+    [Test]
+    public void Roomba()
+    {
+        var roomba = new RobotSimulator(Bearing.South, new Coordinate(8, 4));
+        roomba.Simulate("LAAARRRALLLL");
+        Assert.That(roomba.Direction, Is.EqualTo(Bearing.North));
+        Assert.That(roomba.Coordinate, Is.EqualTo(new Coordinate(11, 5)));
+    }
+}

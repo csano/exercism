@@ -7,7 +7,7 @@ public class Grains
     {
         return Enumerable
                 .Range(1, 64)
-                .Aggregate<int, ulong>(0, (current, x) => current + Square(x));
+                .Aggregate<int, ulong>(0, (accumulator, x) => accumulator + Square(x));
     }
 
     public static ulong Square(int i)

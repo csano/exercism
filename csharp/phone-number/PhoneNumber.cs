@@ -19,7 +19,7 @@ public class PhoneNumber
 
     public string Exchange => Number.Substring(3);
 
-    public string Number { get; } = "000000000";
+    public string Number { get; } = "0000000000";
 
     public override string ToString()
     {

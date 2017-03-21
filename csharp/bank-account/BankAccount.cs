@@ -8,7 +8,10 @@ public class BankAccount
 
     public void Open()
     {
-        isOpen = true;
+        lock(locker)
+        {
+            isOpen = true;
+        }
     }
 
     public void UpdateBalance(int amount)
@@ -21,15 +24,21 @@ public class BankAccount
 
     public int GetBalance()
     {
-        if (!isOpen)
+        lock (locker)
         {
-            throw new InvalidOperationException();
+            if (!isOpen)
+            {
+                throw new InvalidOperationException();
+            }
+            return balance;
         }
-        return balance;
     }
 
     public void Close()
     {
-        isOpen = false;
+        lock(locker)
+        {
+            isOpen = false;
+        }
     }
 }

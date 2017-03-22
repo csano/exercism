@@ -15,6 +15,6 @@ public class SecretHandshake
 
         var handshake = mappings.Where(x => (x.Key & numberOfCommands) != 0).Select(x => x.Value);
 
-        return ((numberOfCommands & 0x1F) != 0 ? handshake.Reverse() : handshake).ToArray();
+        return ((numberOfCommands & 0x10) != 0 ? handshake.Reverse() : handshake).ToArray();
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -18,16 +19,6 @@ public class Triangle
             throw new TriangleException();
         }
 
-        switch (NumberOfEqualSides(sides))
-        {
-            case 3:
-                return TriangleKind.Equilateral;
-            case 2:
-                return TriangleKind.Isosceles;
-            case 0:
-                return TriangleKind.Scalene;
-        }
-
-        throw new TriangleException();
+        return (TriangleKind) NumberOfEqualSides(sides);
     }
 }

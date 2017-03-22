@@ -1,10 +1,11 @@
 using System;
+using System.Linq;
 using NUnit.Framework;
 
 public class Squares {
     
-	private int num;
-	private const int POWER = 2;
+	private readonly int num;
+	private const int Power = 2;
 
     public Squares(int num) {
         if (num < 0) {
@@ -13,20 +14,17 @@ public class Squares {
         this.num = num;
     }
 
-    private int Iterate(Func<int, int> callback) {
-        var output = 0;
-        for(var i=1; i <= num; i++) {
-            output += callback(i);
-        }
-        return output;
+    private int Iterate(Func<int, int> callback)
+    {
+        return Enumerable.Range(1, num).Select(callback).Sum();
     }
 
     public int SumOfSquares() {
-        return Iterate(x => (int) Math.Pow(x, POWER));
+        return Iterate(x => (int) Math.Pow(x, Power));
     }
 
     public int SquareOfSums() {
-        return (int) Math.Pow(Iterate(x => x), POWER);
+        return (int) Math.Pow(Iterate(x => x), Power);
     }
 
     public double DifferenceOfSquares() {

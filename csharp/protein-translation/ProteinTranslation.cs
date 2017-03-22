@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class ProteinTranslation
 {
@@ -29,9 +30,8 @@ public class ProteinTranslation
 
     public static IEnumerable<string> Chunkify(string pattern, int chunkSize)
     {
-        for (var i = 0; i < pattern.Length; i += chunkSize)
-        {
-            yield return pattern.Substring(i, chunkSize);
-        }
+        return Enumerable
+                .Range(0, pattern.Length / chunkSize)
+                .Select(x => pattern.Substring(x * chunkSize, chunkSize));
     }
 }

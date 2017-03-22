@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class Allergies
 {
@@ -35,16 +36,11 @@ public class Allergies
 
     public List<string> List()
     {
-        var list = new List<string>();
-        foreach(var value in Enum.GetValues(typeof(Allergen)))
-        {
-            var allergen = (Allergen) value;
-
-            if (IsAllergicTo(allergen))
-            {
-                list.Add(allergen.ToString().ToLower());
-            }
-        }
-        return list;
+        return 
+            Enum.GetValues(typeof(Allergen))
+                .Cast<Allergen>()
+                .Where(IsAllergicTo)
+                .Select(x => x.ToString().ToLower())
+                .ToList();
     }
 }

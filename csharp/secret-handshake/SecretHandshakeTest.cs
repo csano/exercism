@@ -30,7 +30,8 @@ public class SecretHandshakeTests
     [Test]
     public void Test_handshake_11_to_wink_and_double_blink()
     {
-        Assert.That(SecretHandshake.Commands(3), Is.EqualTo(new[] { "wink", "double blink" }));
+        var commands = SecretHandshake.Commands(3);
+        Assert.That(commands, Is.EqualTo(new[] { "wink", "double blink" }));
     }
 
     [Test]

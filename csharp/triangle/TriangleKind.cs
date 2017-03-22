@@ -1,6 +1,6 @@
 public enum TriangleKind
 {
-    Equilateral,
-    Isosceles,
-    Scalene
+    Scalene = 0,
+    Isosceles = 2,
+    Equilateral = 3
 }

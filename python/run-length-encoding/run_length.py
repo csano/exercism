@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+
 def encode(s):
   count = 0
   previous_char = None
@@ -17,17 +18,15 @@ def encode(s):
 
   return output
 
+
 def decode(s):
-  count = 0;
-  output = ''
-  x = 0
-  while x < len(s):
-    while s[x].isdigit():
-      count = int(str(count) + s[x])
-      x += 1
-
-    output = output + (s[x] * (1 if count == 0 else count))
-    x += 1
     count = 0
+    output = ''
+    for x in list(s):
+        if x.isdigit():
+            count = int(str(count) + x)
+            continue
 
-  return output
+        output = output + (x * (1 if count == 0 else count))
+        count = 0
+    return output
